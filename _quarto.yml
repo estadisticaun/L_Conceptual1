@@ -1,0 +1,30 @@
+project:
+  type: book
+  output-dir: docs
+
+book:
+  title: "ESTADÍSTICAS E INDICADORES EN LA GESTIÓN PÚBLICA"
+  subtitle: "Aproximación Teórica y Práctica"
+  author: "Oficina Nacional de Estadística <br> Dirección Nacional de Planeación y Estadística"
+  cover-image: Imagenes/portada.jpg
+  repo-url: https://github.com/estadisticaun/L_Conceptual1
+  repo-branch: master
+  repo-actions: [edit]
+  sharing: [twitter, facebook, linkedin]
+  date: last-modified
+  date-format: "MM-D-YYYY"
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - summary.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: simplex
+    css: style.css
+
+editor: visual
+

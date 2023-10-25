@@ -1,0 +1,12 @@
+# Referencias {.unnumbered}
+
+::: {#refs}
+
+@article{colombia2019gestion,
+  title={Gesti{\'o}n de la Informaci{\'o}n Cuantitativa en las Universidades},
+  author={Colombia, UN},
+  journal={Bogot{\'a}: Imagen Editorial},
+  year={2019}
+}
+
+:::

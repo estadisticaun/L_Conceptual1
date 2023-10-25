@@ -1,0 +1,7 @@
+# Introducción
+
+Las preguntas sobre los modos en que se gestiona la información dentro de las entidades no son un tema menor. Para quienes están involucrados en este ámbito, pueden resultar interesantes —o, sobre todo, frecuentes— cuestionamientos acerca de cómo recopilar, analizar y emplear datos para respaldar el funcionamiento interno de las instituciones. Sin embargo, al abordar estos interrogantes, es frecuente encontrarse con el desafío de definir y comprender plenamente ciertos componentes que conforman el ámbito de la gestión. ¿Hasta qué punto es precisa la comprensión al aludir a conceptos como “información”, “estadísticas” o “indicadores”? ¿Hasta qué punto se comparte una visión clara y compartida de cómo estas piezas se integran de manera efectiva en la práctica?
+
+En este escenario, se presenta este libro con el propósito de proporcionar apoyo conceptual a las entidades públicas en el estudio y construcción de estadísticas e indicadores institucionales, claves para los procesos de gestión. Para lograr este objetivo, el libro se estructura en cuatro capítulos descritos a continuación.
+
+Como se muestra en el libro @colombia2019gestion), tatat
