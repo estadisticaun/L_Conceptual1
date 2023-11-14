@@ -24,6 +24,17 @@ book:
   sharing: [twitter, facebook, linkedin]
   date:  01/12/2023
   date-format: "MM-D-YYYY"
+  reader-mode: true
+  page-footer:
+    left: |
+      <a href="https://estadisticas.unal.edu.co/home/">Oficina Nacional de Estadística</a><br><a href="https://planeacion.unal.edu.co/home/">Dirección Nacional de Planeación y Estadística</a><br>Universidad Nacional de Colombia. 
+    right: |
+      Este libro fue construido con <a href="https://quarto.org/">Quarto</a>.
+    center: |
+      Estadísticas e Indicadores
+    background: "#ECEFF1"
+    foreground: "#37474F"
+    border: true
   chapters:
     - index.qmd
     - present.qmd
@@ -35,8 +46,10 @@ bibliography: references.bib
 
 format:
   html:
-    theme: flatly
+    theme: 
+      light: flatly
+      dark: darkly
     css: style.css
-
+    
 editor: visual
 
