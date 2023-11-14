@@ -3,18 +3,30 @@ project:
   output-dir: docs
 
 book:
-  title: "ESTADÍSTICAS E INDICADORES EN LA GESTIÓN PÚBLICA"
+  title: "Estadísticas e Indicadores en la Gestión Pública"
   subtitle: "Aproximación Teórica y Práctica"
-  author: "Oficina Nacional de Estadística <br> Dirección Nacional de Planeación y Estadística"
+  author: 
+  - name: David Santiago Hernández Ardila
+    affiliation: 
+      - Oficina Nacional de Estadística
+      - Dirección Nacional de Planeación y Estadística
+      - Universidad Nacional de Colombia
+  - name: Alberto Rodríguez Rodríguez
+    affiliation: 
+     - Oficina Nacional de Estadística
+     - Dirección Nacional de Planeación y Estadística
+     - Universidad Nacional de Colombia
+  google-analytics: "G-S3GXTFFREN"
   cover-image: Imagenes/portada.jpg
   repo-url: https://github.com/estadisticaun/L_Conceptual1
   repo-branch: master
   repo-actions: [edit]
   sharing: [twitter, facebook, linkedin]
-  date: last-modified
+  date:  01/12/2023
   date-format: "MM-D-YYYY"
   chapters:
     - index.qmd
+    - present.qmd
     - intro.qmd
     - summary.qmd
     - references.qmd
