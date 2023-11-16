@@ -41,7 +41,10 @@ book:
     - intro.qmd
     - summary.qmd
     - references.qmd
-
+  sidebar:
+    title: " "
+    logo: 'Imagenes/portada.jpg'
+    
 bibliography: references.bib
 
 format:
