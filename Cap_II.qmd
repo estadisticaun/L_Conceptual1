@@ -1,0 +1,39 @@
+# Las estadísticas
+
+## Definición
+
+## Características intrínsecas
+
+### Población o muestras
+
+### Datos
+
+### Cifras agregadas
+
+### Desagregaciones 
+
+### Representación gráfica y tabular
+
+### Mecanismos de divulgación y de comunicación
+
+## Características extrínsecas 
+
+### Incluyentes
+
+### Comparables 
+
+### Legales y éticas 
+
+### Públicas, transparentes y abiertas 
+
+### Uso intensivo de las TIC 
+
+### Metadatos 
+
+### Proceso estadístico
+
+## De la teoría a la práctica 
+
+### Características intrínsecas en la práctica 
+
+### Características extrínsecas en la práctica

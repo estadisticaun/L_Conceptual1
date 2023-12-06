@@ -37,9 +37,13 @@ book:
     border: true
   chapters:
     - index.qmd
-    - present.qmd
-    - intro.qmd
-    - summary.qmd
+    - presentacion.qmd
+    - introduccion.qmd
+    - Cap_I.qmd
+    - Cap_II.qmd
+    - Cap_III.qmd
+    - Cap_IV.qmd
+    - conclusiones.qmd
     - references.qmd
   sidebar:
     title: " "
