@@ -17,7 +17,8 @@ book:
      - Dirección Nacional de Planeación y Estadística
      - Universidad Nacional de Colombia
   google-analytics: "G-GX6R5Z755F"
-  cover-image: Imagenes/portada.jpg
+  cover-image: 'Imagenes/portada.jpg'
+  favicon: 'Imagenes/Logotipo_UNAL.png'
   repo-url: https://github.com/estadisticaun/L_Conceptual1
   repo-branch: master
   repo-actions: [edit]
@@ -27,13 +28,13 @@ book:
   reader-mode: true
   page-footer:
     left: |
-      <a href="https://estadisticas.unal.edu.co/home/">Oficina Nacional de Estadística</a><br><a href="https://planeacion.unal.edu.co/home/">Dirección Nacional de Planeación y Estadística</a><br>Universidad Nacional de Colombia. 
+      <a href="https://estadisticas.unal.edu.co/home/" target="_blank">Oficina Nacional de Estadística</a><br><a href="https://planeacion.unal.edu.co/home/" target="_blank">Dirección Nacional de Planeación y Estadística</a><br>Universidad Nacional de Colombia. 
     right: |
-      Este libro fue construido con <a href="https://quarto.org/">Quarto</a>.
+      Este libro fue construido con <a href="https://quarto.org/" target="_blank">Quarto</a>.
     center: |
       Estadísticas e Indicadores
     background: "#ECEFF1"
-    foreground: "#37474F"
+    foreground: "#28385c"
     border: true
   chapters:
     - index.qmd
@@ -56,7 +57,16 @@ format:
     theme: 
       light: flatly
       dark: darkly
+    linkcolor: '#79b3a3'
+    fontsize: 1em
     css: style.css
+    cite-method: citeproc
+    biblio-style: apalike 
+    crossref:
+      chapters: true
+      title-delim: "."    
+      fig-prefix: "figura"  
+      tbl-prefix: "tabla"
     
 editor: visual
 

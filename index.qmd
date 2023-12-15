@@ -1,4 +1,6 @@
-<a href="https://github.com/estadisticaun/L_Conceptual1/raw/main/PDF/Libro_estadisticas_e_indicadores.pdf" target="_blank"> <button type="button" class="btn btn-outline-primary">Descargar PDF</button> </a>
+<a href="https://github.com/estadisticaun/L_Conceptual1/raw/main/PDF/Libro_estadisticas_e_indicadores.pdf" target="_blank"> 
+  <button type="button" class="btn btn-outline-primary">Descargar PDF</button>
+</a>
 
 # Invitación {.unnumbered}
 

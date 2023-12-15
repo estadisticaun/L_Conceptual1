@@ -1,4 +1,41 @@
-body {
-  text-align: justify;
+a {
+    color: #79b3a3;
+}
+h1 {
+    font-weight: 500;
+    font-size: xx-large;
+}
+
+h2 {
+    font-weight: 400;
+    font-size: x-large;
+}
+h3 {
+    color: #79b3a3;
+    font-weight: 400;
+    font-size: large;
+}
+h4 {
+    color: #79b3a3;
+    font-weight: 400;
+    font-size: medium;
+}
+p {
+    text-align: justify;
+}
+
+.link { color: #79b3a3; }
+.link:hover { color: lightgray; }
+
+
+.img-container {
+    text-align: center;
+}
+
+.figure {
+    text-align: center;
+    display: block;
+    justify-content: center;
+    align-items: center;
 }
 

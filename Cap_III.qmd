@@ -1,1 +1,400 @@
 # Los indicadores
+
+Con el fin de brindar un contexto adecuado para el contenido que se presentará en este capítulo, es necesario hacer una breve recapitulación de los capítulos anteriores. En primer lugar, en el capítulo I se exploró el concepto de información, el cual demostró ser un término polisémico con múltiples interpretaciones. Se hizo especial énfasis en la noción de “información como cosa”, es decir, como un conjunto de datos que puede ser manipulado, analizado y procesado. Se resaltó la estrecha relación entre la información cuantitativa y la gestión pública, evidenciando cómo los datos desempeñan un papel fundamental al respaldar la implementación de estrategias y políticas de interés. Por otro lado, en el capítulo II se examinó el concepto de estadísticas, que fueron definidas como un conjunto estructurado de información derivada de cifras descriptivas. Se subrayó, además, la existencia de condiciones intrínsecas que son necesarias y constitutivas de las estadísticas, así como de condiciones extrínsecas que indican la dirección que deben tomar en el ámbito de lo público. 
+En este capítulo se aborda el concepto de indicador como una herramienta de medición empleada en la evaluación y el monitoreo de fenómenos de interés en el ámbito de lo público, asimismo, se enuncian las funciones de los indicadores en dicho contexto. Además, se explora la relación entre las cifras estadísticas y los indicadores, así como sus usos en la práctica.
+
+El capítulo continúa con la presentación de una tipología de indicadores que busca abarcar los distintos tipos existentes y resaltar la importancia de comprender cada categoría y utilizarlas de manera conjunta para lograr buenos procesos de gestión en lo público. Asimismo, se examinan las características y los requisitos que deben considerarse en la construcción de indicadores, como el enfoque SMART.
+
+Por último, se destaca la naturaleza matemática subyacente en la conformación de indicadores, así como las diversas estrategias, como medidas estadísticas, frecuencias, razones, tasas e índices, que se emplean para su creación. Estas estrategias proporcionan un marco sólido para desarrollar indicadores significativos y representativos de los fenómenos que se pretenden medir.
+
+## Definición
+
+El trabajo con indicadores ha ganado bastante popularidad en diversos ámbitos, sobre todo, en el mundo del *marketing.* Así, con términos como indicadores clave de rendimiento (KPI) o indicadores clave de riesgo (KRI), y con métricas alusivas al alcance de una marca, el número de clientes potenciales, las ventas realizadas por periodos de tiempo, entre otras, los profesionales del *marketing* pueden entender mejor al público, analizar el impacto de sus estrategias y hacer ajustes basados en la información resultante.
+
+Así, los indicadores han adquirido una connotación privada, empresarial, con una clara orientación a la eficiencia en términos de maximizar el rendimiento financiero. Esto supone una serie de problemáticas como, por ejemplo, la tendencia a enfocarse en resultados a corto plazo en detrimento de los objetivos a largo plazo; la poca relevancia atribuida a factores externos, como la sostenibilidad; la falta de equilibrio, al reducir presupuesto y tiempo para, por ejemplo, la investigación o la innovación; y, en general, una consideración no tan exhaustiva de elementos de carácter ético.
+
+Sin embargo, los indicadores no siempre están relacionados con el *marketing*, las empresas, el rédito y, en general, el ámbito privado. Como se muestra a continuación, los indicadores pueden ser entendidos desde otra perspectiva, fundamental para lo público.
+
+La palabra “indicador” viene del latín *indicare* y hace referencia a algo, como una pista, una señal, un *indicio*, “que sirve para dar a entender”; para precisar, aclarar, para, justamente, *indicar*. Sus componentes léxicos son el prefijo *in*- (hacia dentro), la raíz *dicare*- (señalar con el dedo), y el sufijo -*dor* (agente, el que hace la acción). Esto se relaciona con la definición generalizada de los indicadores como una suerte de herramientas de *medición* empleadas principalmente para la evaluación o el monitoreo, es decir, para señalar o mostrar determinadas características de algo, ya sea un proceso, producto o servicio.
+
+Desde la perspectiva que nos ocupa, a saber, la de las cifras estadísticas en el marco de la gestión pública, los indicadores se consolidan como herramientas empleadas para la medición y el monitoreo de los diferentes aspectos del devenir social. En términos de Gutiérrez, una de las funciones de los indicadores tiene que ver con “recabar y sistematizar información para el análisis estadístico sobre problemas y fenómenos sociales, donde se traducen los conceptos y nociones teóricas en unidades de análisis, como unidades de medida para cuantificar, de manera precisa, la realidad” [@Gutierrez pp. 17].
+
+Bajo esta perspectiva, no es extraño pensar que el origen de los indicadores está relacionado con la vida en sociedad y con la idea moderna de gestión pública. De hecho, la aparición de indicadores se remonta a prácticas sociales como la implementación de balanzas o varas para medir, registros escritos o medidores artesanales y demás estrategias de las que se valían las sociedades antiguas para controlar y monitorear diferentes aspectos de su realidad social, como la producción agrícola o la distribución de alimentos a la población. Luego, con el paso del tiempo, y con la aparición de la estadística y los sistemas de información, los indicadores se convirtieron en herramientas clave para la medición y el monitoreo de fenómenos más consolidados, como la economía, la salud o el bienestar social. 
+
+Ahora bien, el asunto de los indicadores, tanto en las sociedades antiguas como en las sociedades actuales, no se limita a la mera definición y explicación de procesos, productos o servicios relevantes para la vida en sociedad. A través de las definiciones y explicaciones propias del trabajo con indicadores, antes y ahora, las sociedades y sus dirigentes fundamentan, entre otras, la toma de decisiones. Podría decirse, pues, a modo de conclusión, que, a pesar de las transformaciones a nivel conceptual y tecnológico, la importancia y la pertinencia de los indicadores para la comprensión y la mejora de la sociedad ha perdurado desde las comunidades antiguas hasta hoy.
+
+En la actualidad, el trabajo con indicadores en el ámbito de lo público está ligado a la figura del Estado y sus instituciones, pues tienen la responsabilidad de definir indicadores para recopilar y analizar la información sobre, primero, grandes objetivos estatales e institucionales relevantes para la idea de desarrollo social o institucional, como la salud, la economía, el ambiente, la educación, entre otros. Segundo, los procesos de gestión interna que se dan en la práctica dentro de las instituciones para perseguir tales objetivos. Y tercero, la puesta en práctica de planes, programas o proyectos que buscan intervenir en aspectos específicos y precisos de esos grandes objetivos.
+
+## Funciones de los indicadores 
+
+Como se destacó, la definición y el uso de indicadores es clave para la gestión de los Estados y sus instituciones. A continuación, desde la experiencia de la Dirección Nacional de Planeación y Estadística de la Universidad Nacional, se presentan las funciones más comunes de los indicadores en el ámbito público.
+
+* **Medición y evaluación**: los indicadores se utilizan para medir y evaluar un determinado fenómeno, como puede ser el desempeño de una empresa o el impacto de una política pública.
+* **Monitoreo**: los indicadores permiten monitorear, es decir, hacer un seguimiento del estado de un proceso a través del tiempo, usualmente, en términos de desempeño o rendimiento.
+* **Información**: los indicadores sirven para consolidar y dar a conocer información relevante e imparcial.
+* **Comunicación**: los indicadores pueden ser una herramienta que permita consolidar información de interés de manera clara y concisa para procesos efectivos de comunicación, por ejemplo, a través de gráficos o tablas.
+* **Focalización**: a través de los indicadores, los procesos de medición y descripción de fenómenos relevantes para los Estados y sus instituciones se pueden dirigir específicamente a los elementos necesarios.
+* **Transparencia y rendición de cuentas**: los indicadores sirven para que los estados y sus instituciones presenten información de acceso público a fin de que se conozcan los modos en los que se están dando sus procesos de gestión. Asimismo, a través de los indicadores las entidades de control pueden hacer seguimiento de los procesos.
+* **Toma de decisiones**: una de las funciones más populares de la consolidación de indicadores es que, a través de las funciones ya mencionadas, se pueden establecer elementos que contribuyen a orientar la planeación de estrategias y la toma de decisiones.
+
+## Estadísticas e indicadores
+
+Llegados a este punto es importante abordar la distinción entre estadísticas e indicadores. Para empezar, las estadísticas y los indicadores se encuentran en estrecha relación. Se emplean para recopilar, presentar y analizar información que permita describir y explicar fenómenos de interés, a través de, sobre todo, datos numéricos. Sin embargo, aunque son complementarios, no son iguales.
+
+La diferencia radica en que las estadísticas son el resultado de conteos u operaciones aritméticas básicas, que buscan describir de manera general poblaciones o muestras relacionadas con un fenómeno de interés [^cap3-53]. Los indicadores, por su parte, suelen emplear *medidas*, como frecuencias, proporciones, razones, tasas, índices, entre otras, para resumir y comunicar información focalizada sobre un aspecto específico del fenómeno de interés.
+
+[^cap3-53]: Un elemento que caracteriza a las estadísticas en el ámbito institucional es que se producen cumpliendo estándares, metodologías y un proceso estadístico que garantiza que la información generada cumpla con determinados atributos de calidad. Sin embargo, es posible hablar de estadísticas por fuera de las reglas de la institucionalidad.
+
+Con frecuencia, los indicadores se basan en las estadísticas, así, se seleccionan cifras estadísticas relevantes y se combinan para formar un indicador que pretende ser claro, preciso y específico. Por ejemplo, el índice de precios al consumidor (IPC) es un indicador económico *específico* que se basa en las cifras estadísticas *generales* sobre un conjunto representativo de los precios de los bienes y servicios finales en los que gastan los hogares. Se podría decir, pues, que de la misma manera en que los datos se consolidan, a nivel descriptivo, como cifras estadísticas en potencia, las cifras estadísticas pueden ser indicadores en potencia.
+
+En definitiva, las estadísticas son un mecanismo de recopilación y análisis general de datos descriptivos sobre poblaciones o muestras relevantes a nivel social o institucional, que se ordenan a través de conteos y operaciones aritméticas básicas. Mientras que los indicadores son medidas complejas empleadas para la focalización y la profundización en los fenómenos de interés.
+
+Ahora bien, en el ámbito de la gestión pública, tanto estadísticas como indicadores se emplean en conjunto para caracterizar aspectos de interés, monitorear y evaluar programas, diseñar políticas, asignar recursos, garantizar la transparencia y la rendición de cuentas, tomar decisiones informadas, entre otras.
+
+## Tipologías de indicadores
+
+Las diferentes funciones de los indicadores, así como la característica polisémica del término *indicador* y el uso extendido en las dinámicas económicas, administrativas e investigativas de la actualidad, redundan en la consolidación de múltiples tipologías para la clasificación de indicadores.
+
+Cada tipología tiene sus propios criterios de clasificación, como la fuente de los datos, el alcance, la naturaleza y el propósito de la medición. Por ejemplo, una tipología puede clasificar a los indicadores según si son cuantitativos o cualitativos, y otra puede clasificarlos según su relevancia para el sector privado o el sector público.
+
+Por ejemplo, en el escenario de los indicadores cuantitativos y cualitativos, los primeros son fáciles [^cap3-54] de medir y comparar, pero pueden no proporcionar información completa sobre la complejidad de los problemas o las experiencias de los individuos que se van a medir. Los segundos pueden proporcionar información más rica y detallada sobre los contextos y las experiencias, pero son más difíciles de medir y comparar.
+
+[^cap3-54]: Los indicadores cuantitativos se consideran relativamente fáciles de medir debido a su naturaleza numérica. No obstante, en la práctica, medir cuantitativamente puede presentar desafíos como la definición precisa de poblaciones y variables, la selección de metodologías adecuadas, entre otros. Al final, para medir cuantitativamente hay que seguir un enfoque riguroso que garantice la validez y confiabilidad de los resultados.
+
+A pesar de estas limitaciones, todas las tipologías de indicadores son útiles para diferentes propósitos. En la práctica, lo más importante es seleccionar la tipología correcta con los indicadores adecuados para las necesidades y los objetivos específicos de cada contexto.
+
+Ahora bien, hay una serie de dificultades propias de la variedad de tipologías existentes para clasificar indicadores, como la confusión y la falta de estandarización. Si no se establece una clasificación clara y comúnmente aceptada para los indicadores, puede ser difícil entender y comparar diferentes conjuntos de datos. Además, si hay demasiadas tipologías, puede resultar difícil para los usuarios elegir la que mejor se adapte a sus necesidades. Esto puede llevar a la selección de una tipología inapropiada, a la combinación de diferentes tipologías o a la construcción de indicadores adecuados, pero empleados en categorías inadecuadas, lo que puede dificultar la interpretación de los resultados o generar indicadores solapados, es decir, que digan lo mismo.
+
+Antes de abordar en detalle cada una de las tipologías de indicadores presentadas en este libro, es necesario señalar que se ofrece solo una aproximación inicial a la clasificación y definición de las principales tipologías que se consideran relevantes en el ámbito público. Es importante tener en cuenta que este trabajo no tiene la pretensión de agotar todas las posibilidades de uso de diferentes tipologías de indicadores y que se reconoce la existencia de otras perspectivas y enfoques que podrían ampliar el panorama y enriquecer la comprensión de la medición en el contexto público.
+
+### Indicadores cualitativos y cuantitativos
+
+Los indicadores cuantitativos se basan en mediciones numéricas y se utilizan para medir cantidades y magnitudes. Estos indicadores se expresan generalmente en términos de números, porcentajes, tasas, entre otras. Algunos ejemplos de indicadores cuantitativos incluyen el producto interno bruto (PIB), la tasa de inflación, la tasa de mortalidad, la tasa de desempleo o la cantidad de emisiones de gases de efecto invernadero.
+
+Por otro lado, los indicadores cualitativos se basan en observaciones subjetivas y se utilizan para medir las características no numéricas de un fenómeno, como la calidad, la percepción, las actitudes, los valores, entre otros aspectos no numéricos. Tales indicadores se expresan generalmente en términos de descripciones verbales o visuales, como palabras o imágenes. 
+
+Sin embargo, en el ámbito de los indicadores ---si no en todos los ámbitos de la medición en general--- las características no numéricas se suelen entender, configurar y medir a partir de escalas de orden y clasificación de elementos en categorías o niveles que involucran magnitudes o números. Por ejemplo, para medir un indicador como la satisfacción, que está relacionado con las percepciones y, por tanto, con lo cualitativo, se terminan empleando escalas psicométricas [^cap3-55] que ordenan las percepciones en segmentos simétricos que se analizan y se procesan numéricamente, como las *escalas Likert*.
+
+[^cap3-55]: Para que estas escalas puedan ser utilizadas de manera efectiva, es fundamental que estén respaldadas por medidas de fiabilidad, como la validez de constructo y la confiabilidad. La validez de constructo se refiere a la capacidad de la escala para medir el constructo o la variable de interés de manera precisa y coherente. Por otro lado, la confiabilidad se relaciona con la consistencia y estabilidad de los resultados obtenidos a través de la escala en diferentes momentos y contextos.
+
+Si las cualidades o los constructos se miden numéricamente, podría resultar más conveniente hablar de estrategias de medición directas e indirectas, en lugar de cualitativas y cuantitativas. El peso o la estatura de una persona serían medidas directas, mientras que su nivel de felicidad o de ansiedad serían indirectas [^cap3-56]. Ahora bien, los grupos focales, las entrevistas o la etnografía podrían ser, en sí mismas y sin un procesamiento numérico, ejemplos más propios de la medición en el mundo de lo cualitativo, sin embargo, no es fácil determinar hasta qué punto podrían ser indicadores [^cap3-57].
+
+[^cap3-56]: En el ámbito de las estrategias de medición indirectas es importante preguntarse cuánto se pierde en el proceso del fenómeno que se mide.
+
+[^cap3-57]: Valdría la pena explorar la noción de medición en el marco de lo cualitativo; pensar si, por ejemplo, se puede medir sin números y, así, una descripción etnográfica, un producto literario o una pintura pueden ser entendidas como herramientas puramente cualitativas de medición. La reflexión al respecto de las mediciones en el ámbito de lo cualitativo y cuantitativo puede ser de gran utilidad para el fenómeno actual del big data y de los datos no estructurados, que conforman la mayor parte de datos disponibles en la actualidad y cuyo análisis puede contribuir en gran medida a la consolidación de nuevas estadísticas y, con ello, a la toma de decisiones, la transparencia, el seguimiento, la evaluación de políticas públicas, entre otras. No obstante, hasta ahora, la mayoría de los esfuerzos de procesamiento, sistematización y análisis de datos no estructurados se centra en estrategias cuantitativas.
+
+En la práctica, muchos indicadores combinan elementos de medición directa e indirecta para proporcionar una imagen más completa y precisa de un fenómeno determinado. Por ejemplo, volviendo sobre el indicador de satisfacción, se podrían incluir para su medición encuestas cuantitativas y preguntas cualitativas abiertas.
+
+### Indicadores temáticos
+
+Los indicadores también se pueden clasificar a partir de la problemática o área de interés sobre la que se concentran. Así, se generan indicadores específicos que se focalizan en diferentes dimensiones, como la educativa, la social, la política, la económica, la demográfica, entre otras. Dichos indicadores permiten, además de la focalización, la comparación y el contraste con respecto a situaciones puntuales entre diferentes países, regiones o instituciones.
+
+Los indicadores temáticos no son una tipología menor. Al contrario, estos indicadores pueden considerarse como indicadores primarios, que se construyen a partir de cifras estadísticas y que buscan dar cuenta de grandes acuerdos sociales considerados relevantes para el desarrollo humano, tales como la salud, la educación, la economía o la demografía. En este sentido, los indicadores temáticos funcionan como herramientas de carácter, sobre todo informativo, que señalan los síntomas generales del cuerpo social y deberían emplearse como línea base para establecer los tan populares indicadores de gestión, que son de carácter, especialmente, interventivo. Dada la naturaleza de los indicadores temáticos, estos se encuentran principalmente a nivel de organismos multilaterales o países, no obstante, son ampliamente utilizados en entidades públicas. Un buen ejemplo podría ser la implementación de un sistema de indicadores temáticos en una universidad que describa áreas de interés como formación, investigación, extensión universitaria, talento humano, bienestar universitario, entre otras.
+
+Sin tener en cuenta los indicadores temáticos se pueden plantear procesos a nivel estatal o institucional ---ya sean recurrentes o no recurrentes [^cap3-58]--- que ignoren las cifras globales y la situación histórica y actual de los temas de interés. Dicho de otro modo, desconocer la noción de indicadores temáticos deriva en acciones estatales o institucionales que no tienen en cuenta los síntomas del cuerpo social o institucional, como un tratamiento médico que ignora la enfermedad.
+
+[^cap3-58]: Como se resalta en el apartado de “Indicadores de gestión”, en el ámbito de la gestión, los procesos pueden ser de dos tipos: los recurrentes, que no están delimitados en el tiempo, y los no recurrentes, que están delimitados en el tiempo.
+
+En el contexto público colombiano es común que, aunque se reconozcan y definan los indicadores temáticos, no siempre se materialicen en procesos específicos dentro de las instituciones, ni en planes, programas o proyectos. Esto se debe, en parte, a que resulta difícil para un gobierno de turno, limitado en tiempo y recursos, solucionar de manera definitiva las problemáticas que involucran aspectos tan amplios como la salud o la economía. No obstante, es fundamental que los gobiernos establezcan estrategias que contribuyan a definir indicadores temáticos a partir de la consolidación de cifras estadísticas. Además, se deben diseñar planes, programas y proyectos que, aun cuando estén alineados con las convicciones y limitaciones de un gobierno de turno, respondan a la situación que se refleja a través de los indicadores temáticos y contribuyan, de manera articulada, a dar respuesta, al menos parcialmente, a esos grandes temas de interés social o institucional.
+
+A continuación, algunos ejemplos de indicadores temáticos aplicables, principalmente, a nivel estatal.
+
+1. **Indicadores económicos**: se utilizan para medir y evaluar la actividad económica de una sociedad [^cap3-59]. Por ejemplo, la inflación, el IPC o el PIB.
+2. **Indicadores sociales**: miden y evalúan lo relacionado con el bienestar social. Por ejemplo, la calidad de vida, el acceso a servicios básicos o la tasa de alfabetización.
+3. **Indicadores ambientales**: son usados para medir y evaluar el impacto de las actividades humanas en el medio ambiente. Por ejemplo, la huella de carbono o la calidad del aire.
+4. **Indicadores demográficos**: se utilizan para medir y evaluar la dinámica poblacional, su composición y estructura. Por ejemplo, la tasa de natalidad, de mortalidad o de migración. 
+
+[^cap3-59]: Para el uso y entendimiento de la medición de la dimensión económica de un país, por ejemplo, se puede acudir al libro de Eduardo Lora y Sergio I. Prada titulado Técnicas de medición económica.
+
+### Indicadores de gestión
+
+Como se mencionó en el primer capítulo de este libro, la gestión en el ámbito de lo público no es un tema menor. Al contrario, tiene que ver con la puesta en práctica de una estrategia que se ha convenido para atender a una problemática que les compete a todos los individuos que comparten un cierto lugar en el Estado y sus instituciones.
+
+Desde una perspectiva práctica sobre cómo se aplica la gestión en lo público, se han definido varios modelos particulares, por ejemplo, el modelo de gobernanza, nueva gestión pública, burocrático, gobierno abierto, entre otros. Estos modelos conviven de manera no tan definida al interior de los Estados y sus instituciones. Sin embargo, sin importar el modelo ---o los modelos--- que se apliquen, los Estados en la actualidad, o por lo menos el colombiano, se han decantado porque la gestión se dé a través de una noción de procesos.
+
+Pues bien, teniendo en cuenta que la ausencia de un modelo preciso y consensuado para la gestión en las entidades públicas puede causar distorsión en la construcción de indicadores de gestión, a continuación se exponen los indicadores de gestión a través de procesos.
+
+Los procesos son secuencias de pasos o acciones definidas que se llevan a cabo de manera sistemática y coordinada para lograr un objetivo. Estos se pueden entender de dos maneras, los *recurrentes*, que no están acotados en el tiempo, y los *no recurrentes*, que están acotados en el tiempo. Los primeros hacen referencia a la medición y evaluación de los procesos internos de las organizaciones, los cuales permanecen a lo largo del tiempo sin importar las políticas o las convicciones de los gobiernos de turno y que, en últimas, mantienen el funcionamiento de las organizaciones y, más importante, su institucionalidad. Los segundos, por su parte, hacen referencia a la ejecución de planes, programas o proyectos del orden estatal o institucional; tienen un periodo de vida definido y están en estrecha relación con los periodos de los gobiernos de turno. 
+
+Un ejemplo de proceso recurrente es la dinámica interna de una universidad que se propone siempre graduar estudiantes; si ese proceso se deja de llevar a cabo, la universidad como institución deja de funcionar. Un proceso no recurrente podría ser el plan de una rectoría de una universidad para mejorar las habilidades de lectura y escritura de los estudiantes recién admitidos a carreras de humanidades. El plan en mención debería tener una fecha de inicio y final, y está supeditado a las prioridades y convicciones del gobierno de turno.
+
+A diferencia de los indicadores temáticos, los indicadores de gestión necesitan que se establezcan *niveles de desempeño* para los procesos recurrentes y *metas* para los no recurrentes [^cap3-60]. Los niveles de desempeño miden, monitorean y evalúan el rendimiento o la calidad de manera continua, mientras que las metas establecen objetivos específicos que se deben alcanzar en un plazo determinado.
+
+[^cap3-60]: En lugar de niveles de desempeño, los procesos recurrentes podrían tener metas. Sin embargo, esto no es usual.
+
+Llegados a este punto, es importante destacar que, aun teniendo muy buenos procesos de gestión, con sus correspondientes indicadores, esto podría no ser suficiente si esos procesos y sus indicadores no están alineados con las necesidades reales de la población a nivel social, económico, educativo, ambiental, entre otros. En este sentido, es fundamental considerar los indicadores temáticos, junto con las estadísticas oficiales, como una herramienta esencial que da cuenta de los grandes temas de la humanidad que permiten identificar las problemáticas que requieren ser atendidas y evaluadas de manera regular. De modo que es conveniente establecer una interacción entre los indicadores temáticos, de gestión y las estadísticas a fin de garantizar que los procesos y las decisiones de las instituciones estén alineados con los grandes temas de interés social.
+
+Volviendo sobre los procesos, de acuerdo con el Departamento Nacional de Planeación [@DNP_2018], estos siguen una lógica de estructura de cadena de valor, es decir, en su interior se agrupan en varias tipologías que involucran *insumos, actividades, productos* y *resultados* [^cap3-61]. A continuación, se presentan los indicadores para cada uno de los subtipos, que conforman un proceso.
+
+[^cap3-61]: Entender las dinámicas no recurrentes a través de esquemas provenientes del ámbito privado, como la lógica de insumos, actividades y productos, suele ser objeto de críticas. Es importante plantearse si existen alternativas para comprender de manera más integral y profunda las dinámicas internas de las instituciones, sobre todo, cuando tienen un carácter humanístico, como la educación.
+
+#### Insumo {.unnumbered}
+
+* **Indicadores de insumo o capacidad**: miden la capacidad de una organización para realizar sus actividades de manera recurrente o no recurrente. Por ejemplo, el número de trabajadores capacitados en una institución o los recursos financieros con los que cuenta un país o entidad para desarrollar un plan, un programa o un proyecto.
+
+#### Actividades {.unnumbered}
+
+Es relevante destacar que los indicadores relacionados con las actividades o el seguimiento y cumplimiento varían según si se aplican en procesos recurrentes o no recurrentes. De hecho, cada tipo de proceso tiene sus propios marcos normativos y metodológicos para su implementación. Por ejemplo, en el contexto de Colombia, la norma ISO 9000 es referente en el ámbito de los procesos recurrentes, mientras que los lineamientos del [@DNP_2018] son aplicados en los procesos no recurrentes [^cap3-62].
+
+[^cap3-62]: Es importante mencionar que tales normas y guías suelen estar pensadas desde y para el ámbito privado. Sin embargo, la gestión de lo público tiene unas características particulares, como mayor complejidad en la gestión o recursos limitados y, en general, interés por aspectos diferentes a la eficacia y el rendimiento, como podrían ser la equidad o la justicia social. De manera que la implementación de tales normas en el contexto de lo público debería involucrar un proceso de reflexión que redunde en su adaptación y contextualización. Por ejemplo, en Colombia se implementó la norma técnica NTC GP 1000, que buscaba establecer los lineamientos para la implementación de un sistema de gestión de calidad en entidades del sector público.
+
+* **Indicadores de actividades**: se enfocan en el proceso *per se* y no en el resultado final. Permiten determinar el rendimiento de un proceso mientras se está llevando a cabo y, así, implementar diferentes estrategias durante su ejecución. Un indicador de proceso podría ser la cantidad de estudiantes que asisten a las sesiones del programa de capacitación en empleabilidad.
+* **Indicadores de seguimiento o cumplimiento**: monitorean y miden el avance en el cumplimiento de las metas incluidas en un plan, programa o proyecto ---es decir, en un proceso no recurrente--- que se ejecuta a lo largo de un periodo de tiempo que puede, o no, estar dividido en intervalos o periodos de tiempo menores. Por ejemplo, el cumplimiento de una meta propuesta en un grupo de pacientes que han mejorado su salud después de un mes de tratamiento médico en una población base intervenida. De acuerdo con el [@DNP_2018], estos indicadores se pueden clasificar a su vez en subtipos como *Stock*, Flujo, Acumulado, Capacidad, Reducción, entre otros.
+
+Con el fin de ejemplificar y entender [^cap3-63], de manera general, los subtipos de indicadores de seguimiento o cumplimiento que se presentan a continuación y que permiten monitorear y evaluar el avance de las metas incluidas en planes, programas o proyectos a nivel estatal o institucional, se va a suponer que se dispone de un plan, programa o proyecto (proceso no recurrente) y que este se ejecutará en un intervalo de tiempo [^cap3-64] T. Asimismo, se parte de que se hará seguimiento al cumplimiento de las metas incluidas en el plan, programa o proyecto de manera general y a través de subdivisiones del tiempo T en un número determinado de periodos [^cap3-65] P. Las metas propuestas, por su parte, tienen unas líneas base ---es decir, de dónde se parte [^cap3-66]--- y unas metas generales y por periodos ---es decir, a dónde y cuándo se desea llegar--- una vez se ha implementado una política pública incluida en un plan, programa o proyecto.
+
+[^cap3-63]: La *Guía para la construcción y análisis de indicadores* [@DNP_2018] de Colombia ofrece mayores detalles y ejemplos sobre los subtipos de indicadores de gestión para procesos no recurrentes que conforman el conjunto de indicadores de seguimiento o cumplimiento.
+
+[^cap3-64]: El tiempo T para la ejecución de un plan, programa o proyecto en el contexto de lo público está altamente correlacionado con los periodos de tiempo de los gobiernos de turno, tanto a nivel estatal como institucional. Por ejemplo, en Colombia, los planes, programas o proyectos del Gobierno nacional se ejecutan en un lapso de cuatro años, que es el periodo presidencial vigente. En contraste, los planes, programas y proyectos de la UNAL, por ejemplo, se ejecutan durante un intervalo de tiempo de tres años, que equivale a los tiempos definidos estatutariamente en esta institución para ejercer las distintas rectorías.
+
+[^cap3-65]: En lo público, el número de periodos P a lo largo de los cuales se ejecutará un plan, programa o proyecto usualmente hace referencia a años, que es la forma en que se definen y disponen los recursos financieros en las diferentes naciones y sus instituciones. Por ejemplo, en Colombia el número de periodos ---también conocidos como vigencias--- para el desarrollo de los planes, programas y proyectos a nivel nacional es de cuatro años, que equivale al tiempo constitucionalmente establecido para ejercer cada una de las presidencias del país.
+
+[^cap3-66]: Las líneas de base de un plan, programa o proyecto a nivel de los Estados y las instituciones deberían ser extraídas de las estadísticas oficiales o de los indicadores temáticos. Esto último garantizaría una alta correspondencia entre el sentir social, medido a través de las estadísticas e indicadores temáticos, y las apuestas de gestión de los gobiernos de turno. Lamentablemente, aún es muy común encontrar en los Estados y las instituciones planes, programas o proyectos cuyas metas no siempre se corresponden con los síntomas que reflejan las cifras oficiales disponibles.
+
+– **Stock**: los indicadores de *stock* miden los esfuerzos públicos por mantener un resultado constante, es decir, miden que el nivel alcanzado en determinado periodo P se mantenga. De modo que las líneas base deben ser iguales a las metas. La Ecuación 1 describe la representación formal de un indicador de *stock*.
+
+**Ecuación 1. Stock**
+
+$$\text{\% de avance periodo}_t = \frac{\text{Avance}_t}{\text{Meta Periodo}_t}$$
+
+$$\text{\% de avance general} = \frac{\text{Avance}_p}{\text{Meta Final}}$$
+
+$$\text{Metas Intermedias y Meta Final} = \text{Meta Periodo}_p$$
+
+$$t = \{1,2,3,...,P \}$$
+
+– **Flujo**: los indicadores de flujo miden el cumplimiento de las metas que, aunque están acotadas en el tiempo T de ejecución de un plan, programa o proyecto, se repiten periódicamente durante los periodos P que conforman los planes, programas o proyectos adelantados a nivel nacional o institucional. Los resultados sincrónicos, es decir, los de un periodo P, no afectan los resultados finales. A medida que avanza el tiempo de ejecución, y a diferencia de los indicadores de stock, en donde la meta se mantiene constante en los diferentes periodos de ejecución, en este subtipo de indicador la meta se incrementa periodo a periodo con el fin de que, al finalizar la ejecución del plan, programa o proyecto, se alcance el resultado final deseado. La Ecuación 2 describe la representación formal de un indicador de flujo.
+
+**Ecuación 2. Flujo**
+
+$$\text{\% de avance periodo}_t = \frac{\text{Avance}_t}{\text{Meta Periodo}_t}$$
+
+$$\text{\% de avance general} = \frac{\text{Avance}_p}{\text{Meta Final}}$$
+
+$$\text{Meta Final} = \text{Meta Periodo}_p$$
+
+$$t = \{1,2,3,...,P \}$$
+
+– **Acumulado**: los indicadores de acumulado miden el avance a través de datos de periodos de tiempo independientes que, aunque no se afectan entre sí, se suman para determinar el avance total. Dicho de otro modo, las mediciones de cada periodo de tiempo tienen una línea base de 0, y el avance final se calcula sumando los resultados obtenidos en cada periodo de medición. La Ecuación 3 describe la representación formal de un indicador de acumulado.
+
+**Ecuación 3. Acumulado**
+
+$$\text{\% de avance periodo}_t = \frac{\text{Avance}_t}{\text{Meta Periodo}_t}$$
+
+$$\text{\% de avance general} = \frac{\sum_{t=1}^{P}\text{Avance}_p}{\text{Meta Final}}$$
+
+$$\text{Meta Final} = \sum_{t=1}^{P}\text{Meta Periodo}_p$$
+
+$$t = \{1,2,3,...,P \}$$
+
+– Capacidad: los indicadores de capacidad miden el avance acumulado —es decir, periodo a periodo— en el cumplimiento de las metas a partir de la disposición de una línea base y una meta final. La línea base es el punto de partida del plan, programa o proyecto y equivale al valor inicial existente en el proceso al momento de definir la meta final. Es decir, cuando aún no ha iniciado la ejecución del plan, programa o proyecto. La Ecuación 4 describe la representación formal de un indicador de capacidad.
+
+**Ecuación 4. Capacidad**
+
+$$\text{\% de avance periodo}_t = \frac{\text{Avance}_t - \text{Línea Base}}{\text{Meta Periodo}_t - \text{Línea Base}}$$
+
+$$\text{\% de avance general} = \frac{\text{Avance}_p - \text{Línea Base}}{\text{Meta Final} - \text{Línea Base}}$$
+
+$$\text{Meta Final} = \text{Meta Periodo}_p$$
+
+$$t = \{1,2,3,...,P \}$$
+
+– Reducción: los indicadores de reducción miden los esfuerzos para disminuir, a través de un plan, programa o proyecto, los factores que generan resultados negativos en el contexto de lo público. Se parte de una línea base conocida y se busca llegar a una meta definida previamente, la cual busca ser alcanzada en un periodo de tiempo determinado de antemano. Los resultados tienen que ver con la disminución lograda en el valor de la meta proyectada a lo largo del tiempo. La Ecuación 5 describe la representación formal de un indicador de reducción.
+
+**Ecuación 5. Reducción**
+
+$$\text{\% de avance periodo}_t = \frac{\text{Línea Base} - \text{Avance}_t}{\text{Línea Base} - \text{Meta Periodo}_t}$$
+
+$$\text{\% de avance general} = \frac{\text{Línea Base} - \text{Avance}_p}{\text{Línea Base} - \text{Meta Final}}$$
+
+$$\text{Meta Final} = \text{Meta Periodo}_p$$
+
+$$t = \{1,2,3,...,P \}$$
+
+#### Producto {.unnumbered}
+
+* **Indicadores de producto**: se enfocan en la medición y evaluación de la cantidad y calidad de los bienes o servicios públicos resultantes de la transformación de los insumos a través de la ejecución tanto de los procesos recurrentes como de los no recurrentes. Según el [@DNP_2018], pueden ser de oferta o demanda. Los primeros se centran en medir la capacidad de lo público para suministrar bienes y servicios; los segundos, por su parte, buscan dar cuenta de los miembros de la comunidad que resultan beneficiados de los productos producidos a nivel estatal e institucional.
+
+#### Resultado {.unnumbered}
+
+* **Indicadores de resultado**: tienen como propósito medir y evaluar los resultados parciales de los procesos recurrentes o finales del plan, programa o proyecto a través de los productos inmediatos resultantes del proceso. Constituyen un elemento fundamental para determinar si los objetivos de los procesos recurrentes y no recurrentes se alcanzan. Por ejemplo, un indicador de resultado de procesos recurrentes es la cantidad de estudiantes graduados y uno de procesos no recurrentes puede ser el número de estudiantes recién graduados que han conseguido vincularse laboralmente después de una capacitación.
+* **Indicadores de impacto**: a diferencia de los indicadores de resultado, los de impacto miden las consecuencias de la implementación de un plan, programa o proyecto a mediano y largo plazo. Se debe tener en cuenta que los indicadores de impacto constituyen, apenas, una estrategia de aproximación a la medición de los efectos de la implementación, sin embargo, el impacto propiamente dicho de un plan, programa o proyecto debe medirse a través de un proceso más amplio, sistemático y riguroso, a saber, la evaluación de impacto [^cap3-67].
+
+[^cap3-67]: El Departamento Nacional de Planeación (DNP) de Colombia, desde hace más de dos décadas y como se evidencia en el repositorio de evaluaciones [https:// sinergiapp.dnp.gov.co/#Evaluaciones/EvalFin](https:// sinergiapp.dnp.gov.co/#Evaluaciones/EvalFin), ha adelantado más de 300 evaluaciones a diversas políticas públicas implementadas en el país.
+
+### Indicadores según eficiencia, eficacia y efectividad [^cap3-68]
+
+[^cap3-68]: Esta tipología de indicadores puede recibir varios nombres, por ejemplo, en la *Introducción al diseño, construcción e interpretación de indicadores*, el [@DANE_2011] se refiere a estos como “indicadores según calidad”. No obstante, para evitar confusiones y ambigüedades, en este libro se denominan indicadores de eficiencia, eficacia y efectividad.
+
+Los indicadores de gestión en el ámbito de lo público se pueden clasificar de acuerdo con la eficiencia, la eficacia y la efectividad. Los indicadores de eficacia miden qué tanto se están cumpliendo las funciones u obligaciones recurrentes de un Estado o entidad pública, así como las metas contenidas en los planes, programas y proyectos asociados a estas. Por otro lado, los indicadores de eficiencia permiten medir la capacidad que tiene un país y sus instituciones públicas para cumplir con sus obligaciones recurrentes, así como sus metas, haciendo uso de la menor cantidad de insumos o recursos disponibles (indicadores de insumo). Finalmente, los indicadores de efectividad miden la relación o el equilibrio entre la eficacia y la eficiencia alcanzada por los Estados y las instituciones públicas en el ejercicio de sus obligaciones.
+
+Es importante mencionar que, como se observa en las definiciones anteriores, los indicadores en cuestión resultan principalmente de la división/cociente entre los subtipos de indicadores de gestión que fueron presentados previamente y que conforman, como se señaló, los componentes de la cadena de valor de un proceso, sea recurrente o no. Lo anterior siempre y cuando sean de diferentes etapas del proceso. Por ejemplo, un indicador de eficacia podría ser el resultado de dividir el logro alcanzado por un proceso (indicador de resultado) entre los recursos empleados en dicho proceso para alcanzar ese logro (indicador de insumo).
+
+Llegados a este punto, es importante mencionar que los subtipos de indicadores de gestión son ampliamente reconocidos y solicitados en el ámbito de la gestión pública contemporánea. Sin embargo, resulta desafiante y poco común encontrar experiencias significativas de construcción y uso efectivo de estos indicadores. Existe una discrepancia notable entre la abundante literatura, la promoción y la demanda de indicadores de eficacia, eficiencia y efectividad, y su implementación real en la administración pública, así como los beneficios sociales obtenidos a través de su uso.
+
+### Indicadores según jerarquía
+
+Una manera de responder a la diversidad de tipologías y de estrategias de clasificación de indicadores es a través de la jerarquización, donde se le atribuye una cierta importancia, o pertinencia, a cada indicador. Vale la pena tener en cuenta que la jerarquización tiene, de fondo, una configuración ideológica, y que la atribución de importancia puede depender de las tendencias de gestión o ejecución del momento. 
+
+Por ejemplo, en términos del [@DANE_2011], la clasificación de los indicadores según su jerarquía tiene que ver con qué tan estratégicos o no estratégicos son. La clasificación que presentan señala que entre más relacionado esté un indicador con las dinámicas internas de gestión, como la relación entre insumos y procesos, es menos estratégico. Y entre más relacionado esté con los resultados y el impacto, es más estratégico.
+
+Aunque para el [@DANE_2011] en el proceso de jerarquización se definen como menos estratégicos los procesos internos y como más estratégicos los elementos relacionados con los resultados y el impacto, la jerarquización y los términos de “más estratégico” o “menos estratégico” podrían emplearse de manera transversal para cualquier proceso de medición y evaluación que involucre indicadores. 
+
+Dicho de otro modo, desde la propuesta del presente libro, la jerarquización de indicadores no está relacionada exclusivamente con los indicadores de gestión y, dentro de estos, con los subtipos de indicadores de la cadena de valor de un proceso. Por el contrario, la jerarquía de los indicadores es transversal a las demás tipologías de indicadores y se puede hablar de ella en los indicadores cualitativos, cuantitativos, temáticos o de gestión y, dentro de estos, en cada uno de sus subtipos. Así, dependiendo de las características particulares de los procesos, en cada eslabón de la cadena de valor se pueden definir sus correspondientes indicadores como estratégicos o no estratégicos.
+
+## Características de los indicadores
+
+A diferencia de las estadísticas, donde se plantearon características específicas que se dividieron en extrínsecas e intrínsecas, con los indicadores es difícil hablar de características puntuales porque pueden variar de acuerdo con cada tipología. Por ejemplo, en la tipología de indicadores temáticos no se habla de metas o niveles de desempeño, pero sí de las fuentes de los datos. En el mundo de los cuantitativos o cualitativos las reglas de juego también son diferentes, se puede hablar, por un lado, de percepciones y, por el otro, de cantidades. De manera que este libro no se concentra en formular características puntuales para las diversas tipologías de indicadores, pues excede sus alcances y objetivos [^cap3-69].
+
+[^cap3-69]: De hecho, establecer las características y los parámetros de cada tipología debería ser una tarea de las instituciones que trabajan con indicadores.
+
+Ahora bien, aunque no se presente una lista exhaustiva de características para los diferentes tipos de indicadores, hay una serie de condiciones para garantizar su construcción y uso. Por ejemplo, el enfoque SMART, donde los indicadores deben ser *específicos* (*Specific*), es decir, claros y precisos; *medibles* (*Measurable*) o cuantificables; *alcanzables* (*Attainable*), o sea, que se puedan realizar, que sean realistas; *relevantes* (*Relevant*), esto es, alineados con los objetivos; y, finalmente, *temporales* [^cap3-70] (*Time-bound*), enmarcados en un periodo de tiempo específico.
+
+[^cap3-70]: Habría que preguntarse si la acotación en el tiempo es una característica que, efectivamente, deben cumplir todos los indicadores o si, al contrario, es más bien solo para los indicadores de gestión no recurrentes, es decir, para los planes, programas y proyectos. Ahora bien, una característica que comparten los indicadores, ya sean aplicados a procesos recurrentes o no, es que deben tomar en cuenta el factor tiempo como un elemento influyente en su medición. Esto es válido tanto para procesos que buscan perdurar en el tiempo como para aquellos que son de duración acotada. El seguimiento temporal es relevante para evaluar el desempeño y los resultados de cualquier proceso.
+
+## Naturaleza matemática de los indicadores
+
+La naturaleza matemática de los indicadores es inherente a su construcción y disposición. Sin importar su tipología (cuantitativos, temáticos, de gestión o jerarquía), los indicadores hacen uso de operaciones matemáticas, ya sean simples o complejas, como parte integral de su proceso de construcción. Es importante destacar que, si bien todos los indicadores comparten una fórmula o mecanismo matemático estadístico para su constitución, dichas fórmulas y mecanismos pueden variar significativamente y se pueden clasificar en diversas tipologías según su naturaleza numérica. En el ámbito de lo público, se emplean principalmente las siguientes: medidas estadísticas, frecuencias relativas o absolutas, tasas, razones e índices. 
+
+### Medidas estadísticas
+
+Una de las estrategias de naturaleza matemática empleada para la conformación de indicadores son las medidas estadísticas que, como se mencionó en el capítulo II del presente libro, se emplean para la conformación de cifras agregadas, principalmente, aquellas derivadas de variables cuantitativas o continuas. Estas medidas se dividen en cuatro grandes grupos. En primer lugar, las medidas de tendencia central, que se utilizan para establecer los valores medios o centrales de una distribución, como por ejemplo, la media o la moda. En segundo lugar, se encuentran las medidas de dispersión, que indican el grado de variación presente en la distribución, tales como la desviación media, la varianza o la desviación estándar. En tercer lugar, se encuentran las medidas de localización, que dividen la distribución en partes iguales, como la mediana, los cuartiles, los deciles o los centiles. Finalmente, las medidas de forma o simetría, que permiten cuantificar el grado de apuntamiento o simetría de una distribución, como la curtosis o la asimetría.
+
+### Frecuencias 
+
+Las frecuencias son imprescindibles para la elaboración de indicadores, pues permiten conocer la cantidad de veces que ocurre un fenómeno o evento en una población o muestra determinada. Las frecuencias pueden ser de dos tipos, a saber, absolutas y relativas.
+
+* **Frecuencia absoluta**: se refiere al número de veces que se observa una característica específica en una muestra o población de datos o, dicho de otro modo, representa el número de veces que una característica está presente en una muestra o población conformada por $n$ individuos [^cap3-71]. La Ecuación 6 describe la representación formal de la frecuencia absoluta.
+
+[^cap3-71]: El total de individuos que conforman una muestra se nota estadísticamente mediante la letra minúscula n; en contraste, si estos individuos conforman una población, se nota mediante la letra mayúscula N. En las fórmulas de este apartado, por simplicidad, cuando se haga referencia al total de individuos que conforman una población o muestra, se hará uso exclusivo de la letra minúscula n.
+
+**Ecuación 6. Frecuencia absoluta**
+
+$$\sum_{n=1}^{n} Z_i$$
+
+En donde:
+
+$Z_i= 1$ si la característica deseada está presente en el individuo $i$.
+
+$Z_i= 0$ si la característica deseada no está presente en el individuo $i$.
+
+Un ejemplo [^cap3-72] de frecuencia absoluta es el conteo que describe la cantidad de graduados en 2022 de la UNAL, es decir, 9057 estudiantes. Otro ejemplo, de frecuencias absolutas, dentro de esta misma población, es el total de mujeres graduadas en el año 2022 en la UNAL, que fue de 3867.
+
+[^cap3-72]: A lo largo de este apartado se hará uso de algunas cifras oficiales contenidas en la página de estadísticas de la UNAL [http://estadisticas.unal.edu.co/home/](http://estadisticas.unal.edu.co/home/). Como se mencionó, los indicadores son estadísticas en potencia, por lo que estos se fortalecen si se construyen y monitorean a partir de cifras contenidas en sistemas de estadísticas nacionales o institucionales.
+
+* **Frecuencia relativa**: se refiere a la cantidad de veces que se observa una determinada característica en relación con el total de observaciones que conforman una muestra o población de individuos. Vale la pena resaltar que el numerador de una frecuencia relativa está incluido dentro del denominador, es decir, el numerador es un subconjunto del conjunto total que se expresa en el denominador. El rango de una frecuencia relativa oscila entre 0 y 1. La Ecuación 7 describe la representación formal de la frecuencia relativa.
+
+**Ecuación 7. Frecuencia relativa**
+
+$$\frac{\sum_{n=1}^{n} Z_i}{n}$$
+
+En donde:
+
+$Z_i= 1$ si la característica deseada está presente en el individuo $i$.
+
+$Z_i= 0$ si la característica deseada no está presente en el individuo $i$.
+
+$n =$ Total de individuos que conforman la muestra o población.
+
+
+Por ejemplo, de 9057 estudiantes graduados en la UNAL en el año 2022, 5705 se graduaron en programas de pregrado. Es decir, la proporción de estudiantes graduados de pregrado en esta universidad durante el año 2022 fue
+
+$$\text{Frecuencia relativa} = (5709/9057) = 0,63$$
+
+Para facilitar el entendimiento, usualmente, las frecuencias relativas tienen un multiplicador $M$. El más común es el porcentaje, que no es otra cosa que la forma de expresar un número como partes de cada cien. Sin embargo, el multiplicador $M$ podría ser diferente de 100. El rango de una frecuencia relativa cuando se usa un multiplicador oscila entre 0 y el multiplicador $M$. Así las cosas, cuando una frecuencia relativa hace uso de un multiplicador, su ecuación presenta el siguiente aspecto. La Ecuación 8 describe la representación formal de la frecuencia relativa con un multiplicador.
+
+**Ecuación 8. Frecuencia relativa con multiplicador**
+
+$$\text{Frecuencia relativa} = \left(\frac{\sum_{n=1}^{n} Z_i}{n}\right) * M$$
+
+En donde:
+
+$Z_i= 1$ si la característica deseada está presente en el individuo $i$.
+
+$Z_i= 0$ si la característica deseada no está presente en el individuo $i$.
+
+$n =$ Total de individuos que conforman la muestra o población.
+
+$M =$ Multiplicador empleado.
+
+
+Por ejemplo, al usar un multiplicador $M$ de 100, es decir, al calcular un porcentaje, los 5709 estudiantes de pregrado graduados en 2022 de la UNAL representan el 63% del total de 9057 graduados en esta institución.
+
+$$\text{Frecuencia relativa} = (5709/9057) * 100 = 63\%$$
+
+Un ejemplo de frecuencia relativa cuyo multiplicador $M$ es diferente a un porcentaje, por ejemplo 1000, podría ser la proporción de personas en una muestra o población que padecen determinada enfermedad [^cap3-73]. Supongamos que esa población o muestra se conforma de 950.000 personas de las cuales 1500 están contagiadas. La proporción de personas contagiadas, por cada 1000 habitantes de la muestra o población, es: 
+
+$$\text{Frecuencia relativa} = (1500/950000) * 1000 = 1,58 \text{ personas}$$
+
+[^cap3-73]: El uso de frecuencias relativas con multiplicadores fue empleado con regularidad para expresar, por ejemplo, las cifras de contagios o fallecimientos en la pandemia de covid-19. De hecho, este tipo de frecuencias se usa ampliamente para expresar la presencia de eventos relacionados con la salud en general, así como con fenómenos demográficos.
+
+### Razones 
+
+Una razón es una comparación o cociente entre dos o más cantidades donde se pretende señalar el número de elementos del numerador que existen por cada elemento del denominador. Numerador y denominador pueden, o no, provenir de muestras o poblaciones diferentes, es decir, ninguno está incluido dentro del otro, incluso si hacen parte de una misma población. 
+
+Por ejemplo, volviendo sobre los estudiantes graduados en 2022 de la UNAL, el número de estudiantes graduados de pregrado es 5709 y el número de estudiantes de posgrado es 3348. Los dos subconjuntos hacen parte de la misma población ---es decir, la población del total de estudiantes graduados---, sin embargo, ningún subconjunto incluye al otro. Pues bien, la razón entre estudiantes graduados de pregrado por cada estudiante graduado de posgrado es la siguiente:
+
+$$\text{Razón} = 5709/3348 = 1,7$$
+
+Así, por cada estudiante graduado de posgrado hay 1,7 estudiantes graduados en pregrado. Es importante mencionar que una estrategia comunicativa, empleada sobre todo cuando se trabaja con elementos que usualmente no se presentan de manera decimal, es expandir por múltiplos de 10 el resultado de la razón hasta que este sea cercano a un número entero. Por ejemplo, para este caso, la razón se podría presentar de la siguiente manera: por cada 10 estudiantes de posgrado graduados hay 17 estudiantes de pregrado graduados.
+
+Una razón en donde el numerador y el denominador provienen de poblaciones diferentes es la razón de estudiantes por profesor de tiempo completo equivalente en una universidad. La población de estudiantes, desde luego, no está incluida dentro de la población de profesores y viceversa; aun así, resulta útil en términos de calidad de la formación universitaria calcular un indicador que acuda al uso de esta razón. Por ejemplo, en la UNAL, en el segundo semestre del año 2022, hubo un total de 57.090 estudiantes matriculados y 2964 docentes de carrera en tiempo completo equivalente vinculados a la institución. En este sentido, la razón de estudiantes por profesor en esta institución, para el periodo 2022-2, fue de 19,3 estudiantes matriculados por cada profesor disponible.
+
+Una de las razones más empleadas en la conformación de indicadores en el contexto de lo público es la razón promedio. Esta razón, en general, es altamente utilizada para representar la distribución o participación de recursos financieros o presupuestos entre los individuos que conforman una población o muestra bajo observación. Por ejemplo, si se quiere conocer la razón promedio ---también conocida como *per cápita*--- de los aportes que una nación hace para la formación de 1000 estudiantes en una universidad que recibió un presupuesto de \$5000 millones, este sería de \$5 millones por estudiante.
+
+
+### Tasas 
+
+Dentro de las distintas tipologías matemáticas asociadas a las fórmulas de los indicadores, las tasas destacan por su amplia variedad de subtipos y aplicaciones en el ámbito público. Específicamente, las tasas se utilizan de manera cotidiana en diversas áreas de interés social, como la economía, la demografía, la educación, la salud pública y la epidemiología, entre otras. Sin embargo, debido a su amplio alcance y complejidad matemática, el estudio y la profundización de las tasas trascienden el alcance de este libro, el cual presenta apenas tres enfoques en el uso de las tasas en la construcción y aplicación de indicadores.
+
+Pues bien, para empezar, una tasa es una razón o proporción entre cantidades en la que se tiene en cuenta el tiempo. En el primer caso, de carácter demográfico, el cociente resulta de dividir un número de acontecimientos sucedidos en un periodo de tiempo por la población media existente durante ese periodo. Por ejemplo, la tasa de mortalidad, que mide la proporción de personas que fallecen en un periodo de tiempo específico en relación con el total de personas [^cap3-74]. La Ecuación 9 describe la representación formal de la tasa de mortalidad.
+
+[^cap3-74]: En una tasa, el valor 10 elevado a la $n$ permite ampliar el resultado obtenido en el cociente mediante el uso de múltiplos de 10, así: 10 a la 0 es igual a 1; 10 a la 1 es igual a 10; 10 a la 2 es igual a 100; 10 a la 3 es igual a 1000, y así sucesivamente. Esta técnica de generación de múltiplos de 10 es ampliamente utilizada en tasas relacionadas con la demografía y la salud pública, especialmente cuando el número de casos que presentan una condición evaluada es bajo en comparación con las poblaciones expuestas a tales condiciones durante los periodos de medición.
+
+**Ecuación 9. Tasa de mortalidad**
+
+$$\frac{\text{Número de defunciones en un periodo de tiempo}}{\text{Poblacion media en ese periodo}} \times 10^n$$
+
+Además de la población media, en el segundo caso, el cociente de una tasa también puede tener un carácter económico, es decir, hacer referencia a una unidad monetaria. La tasa de cambio muestra la relación que existe entre dos monedas en un periodo de tiempo en particular [^cap3-75]. Dicha tasa es un indicador que expresa cuántas unidades de una divisa se necesitan para obtener una unidad de la otra en un momento específico. La Ecuación 10 describe la representación formal de una tasa de carácter económico.
+
+[^cap3-75]: En el caso de la variación entre divisas, por ejemplo, las tasas se calculan generalmente en periodos de tiempo diarios.
+
+**Ecuación 10. Tasa económica**
+
+$$\frac{\text{Cantidad o peso de la moneda local}}{\text{Una unidad de la moneda extranjera}} \times 10^n$$
+
+En el tercer caso, las tasas pueden tener un carácter referente a diversas áreas de interés institucional o estatal. En este punto se habla de tasas de variación, que, según el Consejo Nacional de Evaluación de la Política de Desarrollo Social [@Coneval] de México, expresan un cambio relativo en el tiempo a través del cociente de dos observaciones de una misma variable en diferentes periodos de tiempo (pasado $[t-k]$ y presente $[t]$) para establecer si hubo un incremento o decremento de esta. Para su cálculo, el periodo más reciente $(t)$ se coloca en el numerador, mientras que el menos reciente (*pasado* $t-k$) se ubica en el numerador (restando al cálculo del valor más reciente), así como en el denominador. La Ecuación 11 describe la representación formal de una tasa de variación.
+
+**Ecuación 11. Tasa de variación**
+
+$$\frac{\text{(Variable en el periodo t)} - \text{(Variable en el periodo t-k)}}{\text{Variable en el periodo t-k}} \times 10^n$$
+
+Un ejemplo de una tasa de variación resulta al comparar el total de aspirantes a la UNAL en el año 2022 respecto de la cifra reportada en el año 2010. En el año 2022 esta universidad tuvo un total de 96.095 inscripciones (variable en el periodo $t$) mientras que en el año 2010 a esta institución se inscribieron 117.325 aspirantes (variable $t-k$). Al calcular la tasa de variación de aspirantes haciendo uso de la Ecuación 11 se obtiene como resultado un valor de -0,181, lo que se traduce en una reducción de -0,181 o del 18,1% (multiplicar el cociente por 10 a la 2) en las inscripciones de esta universidad durante los últimos 13 años.
+
+Las tasas se pueden dividir en tasas generales ---también conocidas como brutas--- y tasas específicas. Las generales tienen en cuenta a la población en su totalidad y las específicas a una parte de esa población definida a partir de características como la edad, el sexo, la región, etc., si se trabaja con poblaciones humanas. Por ejemplo, en Colombia, la tasa de cobertura bruta de educación superior de pregrado [^cap3-76] del año 2022, entendida como la participación de la población entre 17 y 21 años efectivamente matriculada a nivel universitario en las instituciones de educación superior (IES) del país, fue del 55% (2.284.637/s4.159.592) [^cap3-77]. Por otro lado, un ejemplo de tasa de cobertura específica podría ser la desagregación de la tasa bruta general de cobertura de educación superior de pregrado en el año 2022 según los subgrupos de hombres y de mujeres que se ubican entre los 17 y los 21 años a nivel poblacional en el país.
+
+[^cap3-76]: SNIES. Resumen Indicadores Educacion Superior. [https://snies.mineducacion.gov.co/portal/Informes-e-indicadores/Resumen-indicadores-Educacion-Superior/](https://snies.mineducacion.gov.co/portal/Informes-e-indicadores/Resumen-indicadores-Educacion-Superior/)
+
+[^cap3-77]: A partir de esta tasa se concluye que, en Colombia, para el año 2022, de cada 100 personas que se ubicaban en el rango de edad comprendido entre los 17 y los 21 años, 54 de ellas se encontraban matriculadas en, al menos, un programa de pregrado ofertado por las instituciones de educación superior del país.
+
+### Índices
+
+Dentro de los diversos subtipos de medidas matemáticas presentados en este apartado, los índices se destacan como el nivel más complejo en términos de construcción, medición e interpretación en el contexto de lo público. Debido a su complejidad, su uso se reserva principalmente para la medición de fenómenos de interés social a nivel multilateral entre Estados o a través de organismos encargados de las estadísticas oficiales a nivel nacional. En el ámbito de las entidades públicas, el uso de índices, comparado con otras formas de medición a través de indicadores, es escaso o excepcional.
+
+Los índices son altamente utilizados para medir fenómenos de interés público que no pueden ser evaluados directamente, como la calidad de vida, la evolución de los precios de bienes y servicios, la inteligencia, el nivel de bienestar, entre otros constructos de relevancia social. Estos pueden ser simples o compuestos, basados en una o varias variables asociadas a un constructo o categoría conceptual de interés. Los índices simples se apoyan en un solo indicador o variable para evaluar una característica o fenómeno específico de interés. Un ejemplo claro de índice simple es la incidencia o la prevalencia de las enfermedades que hacen parte de la epidemiología o de la salud pública.
+
+Por otra parte, se habla de índices compuestos cuando se basan en varias variables u otros índices. Su función principal es sintetizar o resumir la información que proporcionan otros índices simples o variables que hacen parte de su composición. Los índices compuestos pueden ser de dos tipos, no ponderados y ponderados. Un índice compuesto no ponderado suma los valores de cada índice, variable o indicador simple para obtener una puntuación total. Por otro lado, un índice compuesto ponderado asigna un valor particular a cada indicador simple que lo compone.
+
+Un ejemplo de índice compuesto ponderado es el puntaje básico de matrícula (PBM) de la UNAL, que mide la capacidad económica de las familias de los estudiantes matriculados en esta institución y define el valor de la matrícula que cada uno de ellos debe pagar semestralmente. La metodología requerida para la construcción de este índice fue definida a través de la Resolución 2416 de 1993 de la Rectoría, y se basa en la información de siete variables con un puntaje, un peso ponderado y una función específica dentro de la fórmula asignada a cada una de ellas. La Ecuación 12 describe la representación formal del PBM de la UNAL.
+
+**Ecuación 12. PBM**
+
+$$PBM = (0.4A_1 + 0.3A_2 + 0.3A_3) \times B_1 \times B_2 \times B_3 \times B_4$$
+
+Donde las variables $A_2$ y $A_1$ constituyen al estrato [^cap3-78] y el valor de la pensión escolar en el último año de secundaria respectivamente, y son indicadores del nivel de gastos en el hogar, mientras $A_3$ representa el nivel de ingresos. La variable $B_1$ es el tipo de colegio, $B_2$ es el lugar de residencia, $B_3$ propiedad de la vivienda familiar y $B_4$ es el número de hijos dependientes del ingreso del hogar y, son igualmente, indicadores del nivel de gastos [^cap3-79].
+
+[^cap3-78]: Según el [@DANE_ES], la estratificación socioeconómica en Colombia se refiere a la clasificación de inmuebles residenciales con el propósito de cobrar de manera diferencial los servicios públicos domiciliarios.
+
+[^cap3-79]: En el contexto de la educación superior pública de Colombia existen otras experiencias de índices como, por ejemplo, los de capacidad y de resultados del Modelo del Sistema Universitario Estatal (SUE), a través del cual se distribuían, por vigencias, recursos financieros entre las instituciones pertenecientes al Sistema. Tanto el índice de capacidad como el de resultados emplearon la metodología estadística de componentes principales para su construcción y sus cálculos.
+
+
