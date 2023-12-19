@@ -61,7 +61,7 @@ format:
     fontsize: 1em
     css: style.css
     cite-method: citeproc
-    biblio-style: apalike 
+    biblio-style: plainnat 
     crossref:
       chapters: true
       title-delim: "."    

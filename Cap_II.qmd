@@ -84,7 +84,7 @@ Los datos estructurados son aquellos almacenados en tablas formadas por filas y 
 
 A continuación, se muestra una tabla con la información correspondiente a la cantidad de estudiantes de una universidad que hacen parte de diferentes programas curriculares en distintas sedes. La tabla es estructurada, pero no ordenada.
 
-![Tabla 1. Datos estructurados no ordenados](Imagenes/Tabla 1.png "Empresas Nivel Central"){width="70%"}
+![Tabla 1. Datos estructurados no ordenados](Imagenes/Tabla 1.png "Empresas Nivel Central"){width="90%"}
 
 La tabla 2 presenta la misma información de la primera, pero a través de las reglas de datos ordenados. Así, se conforman 3 *variables* y 4 *observaciones* que constituyen una *tabla* ordenada y estructurada.
 
@@ -282,15 +282,139 @@ Las variables que describen la población empleada para ejemplificar las caracte
 
 A partir de los datos consolidados y agregados, es posible *desagregar* la población en grupos más pequeños, por ejemplo, la *desagregación geográfica* de lugar de procedencia de los estudiantes; la d*esagregación geográfica institucional* de los estudiantes matriculados por primera vez a nivel general, por sedes, facultades o programas académicos; y las *desagregaciones temáticas* de modalidad de formación, sexo, áreas del conocimiento, entre otras. 
 
-Las cifras, sin importar si son agregadas o desagregadas, se representan de manera tabular y gráfica. Por ejemplo, en la página de estadísticas de la UNAL se emplean algunas estrategias, como la representación gráfica que describe una serie de tiempo de la variable sexo y que evidencia, además, una desagregación temporal de esa variable temática (Figura 1); la gráfica circular que da cuenta de la situación actual (2022-2) de la distribución por sexo de los estudiantes matriculados por primera vez (Figura 2); una representación tabular que resume el comportamiento de la variable sexo a nivel temporal y actual (Tabla 3); y, para terminar, la representación de la *desagregación geográfica* del lugar de nacimiento (municipios de Colombia) de los matriculados por primera vez en 2022-2 a través de un mapa (Figura 3).
+Las cifras, sin importar si son agregadas o desagregadas, se representan de manera tabular y gráfica. Por ejemplo, en la página de estadísticas de la UNAL se emplean algunas estrategias, como la representación gráfica que describe una serie de tiempo de la variable sexo y que evidencia, además, una desagregación temporal de esa variable temática (Gráfica 1); la gráfica circular que da cuenta de la situación actual (2022-2) de la distribución por sexo de los estudiantes matriculados por primera vez (Gráfica 2); una representación tabular que resume el comportamiento de la variable sexo a nivel temporal y actual (Tabla 3); y, para terminar, la representación de la *desagregación geográfica* del lugar de nacimiento (municipios de Colombia) de los matriculados por primera vez en 2022-2 a través de un mapa (Gráfica 3).
 
-![Figura 1. Evolución del número de estudiantes matriculados por primera vez de acuerdo con el sexo. Fuente: elaboración propia.](Imagenes/Gráfica 1.png "Evolución del número de estudiantes matriculados por primera vez de acuerdo con el sexo"){width="70%"}
+<!-- CARGAR BASE DE MATRICULADOS -->
 
-![Figura 2. Distribución de estudiantes matriculados por primera vez de acuerdo con el sexo. Fuente: elaboración propia.](Imagenes/Gráfica 2.png "Distribución de estudiantes matriculados por primera vez de acuerdo con el sexo"){width="70%"}
+```{r}
+#| echo: false
+#| message: false
+#| warning: false
 
-![Tabla 3. Total de estudiantes matriculados por sexo. Fuente: elaboración propia.](Imagenes/Tabla 3.png "Total de estudiantes matriculados por sexo"){width="70%"}
+# librerías requeridas
+library(UnalData)
+library(UnalR)
+library(tidyverse)
+library(magrittr)
 
-![Gráfica 3. Mapa del lugar de nacimiento en municipios de Colombia de los matriculados por primera vez. Fuente: elaboración propia.](Imagenes/Gráfica 3.png "Mapa del lugar de nacimiento en municipios de Colombia de los matriculados por primera vez"){width="70%"}
+# Base de datos de matriculados a la Universidad
+
+MatriculadosPV <- UnalData::Matriculados %>% select(-PROGRAMA, YEAR, SEMESTRE, DEP_PROC, CIU_PROC, SEXO, CAT_EDAD, ESTRATO, MOD_ADM, AREAC_SNIES, NACIONALIDAD, FACULTAD, TIPO_NIVEL, EDAD_MOD) %>%
+  filter(MAT_PVEZ == "Sí") %>%
+  left_join(select(UnalData::Hprogramas,SNIES_PROGRA,COD_PADRE,PROGRAMA), by= "SNIES_PROGRA") %>%
+  # Transformación CAT_EDAD -> categorias bien definidas
+  mutate(TOTAL = "Total",
+         # Transformación FACULTAD -> categorias bien definidas
+         FACULTAD = ifelse(FACULTAD == "Ingenieria y administración", "Ingeniería y administración",
+                           FACULTAD),
+         NACIONALIDAD = ifelse(is.na(NACIONALIDAD),"Sin información",NACIONALIDAD))
+
+Agregado <- MatriculadosPV %>% group_by(YEAR, SEMESTRE) %>% count()
+ano <- max(Agregado %>% select(YEAR))
+semestre <- Agregado[[nrow(Agregado), "SEMESTRE"]]
+etiqueta <- paste0(" ", ano, "-", semestre)
+
+tema <- 5
+
+color <- function(n_colores){
+  salida <- colorRampPalette(c('#A8A8A8','#4D4D4D'))(n_colores)
+  return(salida)
+}
+```
+
+```{r}
+#| echo: false
+#| message: false
+#| warning: false
+#| fig-cap: >
+#|    Gráfica 1. Evolución del número de estudiantes matriculados por primera vez de acuerdo con el sexo. Fuente: elaboración propia.
+
+Agregar(SEXO ~ YEAR + SEMESTRE, 
+                    frecuencia = list(c(2009:ano), c(1:2)),
+                    intervalo = list(c(2009, 1), c(ano, semestre)),
+                    datos = MatriculadosPV,
+                    textNA = "Sin información") %>% 
+           Plot.Series(categoria = "SEXO", 
+              titulo = "Evolución del número de estudiantes matriculados por primera vez por sexo",
+              labelY = "Número de estudiantes",
+              ylim = c(0,NaN),
+              libreria = c("highcharter"), 
+              colores = color(length(unique(MatriculadosPV$SEXO))),
+              estilo = list(hc.Tema = tema, hc.Slider = FALSE, hc.Credits = ""))
+```
+
+<br>
+
+```{r}
+#| echo: false
+#| message: false
+#| warning: false
+#| fig-cap: >
+#|    Gráfica 2. Distribución de estudiantes matriculados por primera vez de acuerdo con el sexo. Fuente: elaboración propia.
+
+Agregar(SEXO ~ YEAR + SEMESTRE, 
+                    frecuencia = list(c(2009:ano), c(1:2)),
+                    intervalo = list(c(2009, 1), c(ano, semestre)),
+                    datos = MatriculadosPV,
+                    textNA = "Sin información") %>%
+        Plot.Torta(categoria  = "SEXO",
+           ano        = "2022",
+           periodo    = "2",
+           titulo     = "Distribución de estudiantes matriculados por primera vez por sexo",
+           addPeriodo = TRUE,
+           libreria   = "highcharter",
+           colores = color(length(unique(MatriculadosPV$SEXO))),
+           estilo     = list(hc.Tema = tema))
+```
+
+<br>
+
+```{r}
+#| echo: false
+#| message: false
+#| warning: false
+#| fig-cap: >
+#|    Tabla 3. Total de estudiantes matriculados por sexo. Fuente: elaboración propia.
+
+Hombres <- MatriculadosPV %>% group_by(YEAR, SEMESTRE, SEXO) %>% summarise(Total=n()) %>% filter(SEXO == "Hombres") %>% ungroup()
+
+Mujeres <- MatriculadosPV %>% group_by(YEAR, SEMESTRE, SEXO) %>% summarise(Total=n()) %>% filter(SEXO == "Mujeres") %>% ungroup()
+
+MatPV_Tabla <- Hombres[,c(1,2)] %>% mutate(Hombres = Hombres$Total, Mujeres = Mujeres$Total, Total = Hombres + Mujeres)
+
+#Tabla en HTML
+UnalR::Tabla.General(datos = MatPV_Tabla,
+                     encabezado = "Tabla 3. Total estudiantes matriculados por primera vez por sexo", 
+                     colorHead = "lightgray",
+                     colNames = c("Año","Semestre","Hombres","Mujeres","Total"),
+                     filtros = TRUE,
+                     scrollX = FALSE)
+
+```
+
+<br>
+
+```{r}
+#| echo: false
+#| message: false
+#| warning: false
+#| fig-cap: >
+#|    Gráfica 3. Mapa del lugar de nacimiento en municipios de Colombia de los matriculados por primera vez. Fuente: elaboración propia.
+
+MatriculadosPV %>% filter(YEAR == ano, SEMESTRE == semestre) %>%
+  Plot.Mapa(depto         = COD_DEP_PROC,
+            mpio          = COD_CIU_PROC,
+            estadistico   = "Conteo",
+            tipo          = "SiNoMpios",
+            titulo        = paste("Matriculados por primera vez", etiqueta),
+            centroideMapa = "CUNDINAMARCA",
+            zoomMapa      = 6,       
+            colores       = color(2),
+            showSedes     = TRUE
+  )
+```
+
+<br>
 
 Finalmente, para concluir con las características intrínsecas, la página de estadísticas de la UNAL se consolida como un *medio de difusión* y *comunicación* que ofrece una amplia gama de cifras relevantes sobre diversas poblaciones de interés universitario. Mediante esta herramienta, es posible acceder de manera clara y concisa a las estadísticas oficiales de la universidad y, además, evidenciar cómo intervienen las nociones teóricas de las características de las estadísticas en la construcción de un ejercicio práctico.
 
