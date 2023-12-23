@@ -39,3 +39,20 @@ p {
     align-items: center;
 }
 
+.double-column {
+  column-count: 2;
+}
+.contenedor {
+  display: flex;
+}
+
+.columna-izquierda {
+  flex: 1;
+}
+
+.columna-derecha {
+  flex: 1;
+}
+
+
+

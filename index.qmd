@@ -1,9 +1,117 @@
-<a href="https://github.com/estadisticaun/L_Conceptual1/raw/main/PDF/Libro_estadisticas_e_indicadores.pdf" target="_blank"> 
-  <button type="button" class="btn btn-outline-primary">Descargar PDF</button>
-</a>
+<a href="https://github.com/estadisticaun/L_Conceptual1/raw/main/PDF/Libro_estadisticas_e_indicadores.pdf" target="_blank"> <button type="button" class="btn btn-outline-primary">Descargar PDF</button> </a>
 
 # Invitación {.unnumbered}
 
 Cuando se habla de información, estadísticas o indicadores, y su aplicación en la gestión pública, se hace referencia a cifras expresadas por medio de números, que contribuyen a dar cuenta de la realidad social, económica, demográfica o educativa, y de las acciones emprendidas por gobiernos y entidades para intervenir dicha realidad. No obstante, al ahondar en preguntas como qué se entiende por información, cómo se emplea la información cuantitativa, cuál es la naturaleza de las cifras estadísticas y de los indicadores, si existen varias categorías de indicadores y las diferencias entre estadísticas e indicadores, surgen inquietudes, interrogantes y debates que se vuelven relevantes en el contexto de lo público.
 
 Este libro ofrece una aproximación teórico-práctica al estudio y uso de estadísticas e indicadores en el escenario estatal, con base en la experiencia acumulada en gestión de datos institucionales por parte de la Oficina Nacional de Estadística de la Universidad Nacional de Colombia. El propósito de este texto es apoyar los procesos de gestión estadística dentro de las entidades y contribuir a la disposición de cifras para su uso en la toma de decisiones, la rendición pública de cuentas, la transparencia institucional y la evaluación de resultados derivados de la implementación de políticas públicas. Además de su valor como recurso práctico, se espera que el presente texto fomente el debate y la reflexión académica en torno a conceptos relacionados con la medición en lo público.
+
+## Créditos {.unnumbered}
+
+<div class="double-column">
+<h3>DIRECTOR</h3>
+<p>José Ignacio Maya Guerra</p>
+
+<h3>EQUIPO DE TRABAJO</h3>
+<p>Alberto Rodríguez Rodríguez<br>
+Basilio Sánchez Manrique<br>
+Cindy Catalina Vásquez Guerrero<br> 
+Cindy Lorena Silva Montenegro<br> 
+Jakeline Burgos Gutiérrez<br>
+Juan Carlos Iguavita Flórez<br>
+Katherin Marian Manrique Rodríguez<br> 
+Liliana Andrea Gaitán Mendoza<br>
+Luis Felipe Sánchez Mesa<br>
+María Claudia Galindo González<br> 
+Mónica Andrea Carrillo Rojas<br>
+Nelson Enrique Vivas Velandia</p>
+
+<h3>CORRECCIÓN DE ESTILO</h3>
+<p>María José Díaz Granados M.</p>
+
+<h3>DISEÑO CARÁTULA</h3>
+<p>Andrés Álvarez Ríos</p>
+
+<h3>DISEÑO GRÁFICAS</h3>
+<p>Andrés Álvarez Ríos</p>
+
+<h3>DISEÑO Y DIAGRAMACIÓN IMPRESA</h3>
+<p>Gloria Diazgranados M.</p>
+
+<h3>DISEÑO Y DIAGRAMACIÓN WEB</h3>
+<p>María Jimena López Munévar</p>
+
+<h3>IMPRESIÓN</h3>
+<p>Editorial Gente Nueva</p>
+
+<h3>ISBN: 978-958-505-424-0</h3>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+<h3>RECTORA</h3>
+<p>Dolly Montoya Castaño</p>
+
+<h3>VICERRECTOR GENERAL</h3>
+<p>Pablo Enrique Abril</p>
+
+<h3>VICERRECTOR ACADÉMICO</h3>
+<p>Carlos Augusto Hernández Rodríguez</p>
+
+<h3>VICERRECTOR INVESTIGACIÓN</h3>
+<p>Camilo Younes Velosa</p>
+
+<h3>SECRETARIA GENERAL</h3>
+<p>María Fernanda Lara Díaz</p>
+
+<h3>GERENTE NACIONAL FINANCIERO Y ADMINISTRATIVO</h3>
+<p>Álvaro Viña Vizcaíno</p>
+
+<h3>DIRECTOR NACIONAL DE PLANEACIÓN Y ESTADÍSTICA</h3>
+<p>José Ignacio Maya Guerra</p>
+
+<h3>DIRECTORA DE RELACIONES EXTERIORES</h3>
+<p>Melba Libia Cárdenas Beltrán</p>
+
+<h3>DIRECTOR UNIDAD DE MEDIOS DE COMUNICACIÓN - UNIMEDIOS</h3>
+<p>Fredy Chaparro Sanabria</p>
+
+<h3>DIRECTOR OFICINA JURÍDICA NACIONAL</h3>
+<p>Jairo Iván Peña Ayazo</p>
+
+<h3>DIRECTORA NACIONAL DE VEEDURÍA DISCIPLINARIA</h3>
+<p>Diana Yamile Rodríguez Niño</p>
+
+<h3>DIRECTORA NACIONAL FONDO PENSIONAL</h3>
+<p>Carolina Argüello Ospina</p>
+
+<h3>JEFE OFICINA NACIONAL DE CONTROL INTERNO</h3>
+<p>Ángel de Jesús Múnera</p>
+
+<h3>VICERRECTOR SEDE BOGOTÁ</h3>
+<p>José Ismael Peña Reyes</p>
+
+<h3>VICERRECTOR SEDE MEDELLÍN</h3>
+<p>Juan Camilo Restrepo Gutiérrez</p>
+
+<h3>VICERRECTOR SEDE MANIZALES</h3>
+<p>Neil Guerrero González</p>
+
+<h3>VICERRECTOR SEDE PALMIRA</h3>
+<p>Jaime Eduardo Muñoz Flórez</p>
+
+<h3>VICERRECTORA SEDE DE LA PAZ</h3>
+<p>María Marcela Camacho Navarro</p>
+
+<h3>DIRECTORES DE SEDE</h3>
+<p>*Orinoquia*: Óscar Eduardo Suárez Moreno<br>
+*Amazonia*: Eliana María Jiménez Rojas<br> 
+*Caribe*: Adriana Santos Martínez<br>
+*Tumaco*: Amanda Lucía Mora Martínez</p>
+
+<h3>JEFES OFICINAS DE PLANEACIÓN Y ESTADÍSTICA</h3>
+<p>*Sede Bogotá*: Geraldo Millán Cuervo<br>
+*Sede Medellín*: Iván Alonso Montoya Restrepo<br>
+*Sede Manizales*: Paula Andrea Escandón Suárez<br> 
+*Sede Palmira*: Nelson Lozano Duque</p>
+
+</div>
