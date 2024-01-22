@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.2.335">
+<meta name="generator" content="quarto-1.3.450">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -17,14 +17,15 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for citations */
 div.csl-bib-body { }
 div.csl-entry {
   clear: both;
 }
-.hanging div.csl-entry {
+.hanging-indent div.csl-entry {
   margin-left:2em;
   text-indent:-2em;
 }
@@ -38,8 +39,7 @@ div.csl-right-inline {
 }
 div.csl-indent {
   margin-left: 2em;
-}
-</style>
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -79,7 +79,8 @@ div.csl-indent {
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
     "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit"
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
   }
 }</script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-GX6R5Z755F"></script>
@@ -100,11 +101,16 @@ gtag('config', 'G-GX6R5Z755F', { 'anonymize_ip': true});
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-    <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Información y gestión pública</span></h1>
-      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
-        <i class="bi bi-chevron-right"></i>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./Cap_I.html"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Información y gestión pública</span></a></li></ol></nav>
+      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+      </a>
+      <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
       </button>
     </div>
   </nav>
@@ -112,7 +118,7 @@ gtag('config', 'G-GX6R5Z755F', { 'anonymize_ip': true});
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header sidebar-header-stacked">
       <a href="./index.html" class="sidebar-logo-link">
       <img src="./Imagenes/portada.jpg" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
@@ -120,30 +126,32 @@ gtag('config', 'G-GX6R5Z755F', { 'anonymize_ip': true});
     <div class="sidebar-title mb-0 py-0">
       <a href="./"></a> 
         <div class="sidebar-tools-main tools-wide">
-    <a href="https://github.com/estadisticaun/L_Conceptual1" title="Source Code" class="sidebar-tool px-1"><i class="bi bi-github"></i></a>
-    <a href="" title="Share" id="sidebar-tool-dropdown-0" class="sidebar-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false"><i class="bi bi-share"></i></a>
-    <ul class="dropdown-menu" aria-labelledby="sidebar-tool-dropdown-0">
-        <li>
-          <a class="dropdown-item sidebar-tools-main-item" href="https://twitter.com/intent/tweet?url=|url|">
-            <i class="bi bi-bi-twitter pe-1"></i>
-          Twitter
-          </a>
-        </li>
-        <li>
-          <a class="dropdown-item sidebar-tools-main-item" href="https://www.facebook.com/sharer/sharer.php?u=|url|">
-            <i class="bi bi-bi-facebook pe-1"></i>
-          Facebook
-          </a>
-        </li>
-        <li>
-          <a class="dropdown-item sidebar-tools-main-item" href="https://www.linkedin.com/sharing/share-offsite/?url=|url|">
-            <i class="bi bi-bi-linkedin pe-1"></i>
-          LinkedIn
-          </a>
-        </li>
-    </ul>
-  <a href="" class="quarto-color-scheme-toggle sidebar-tool" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
-  <a href="" class="quarto-reader-toggle sidebar-tool" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
+    <a href="https://github.com/estadisticaun/L_Conceptual1" rel="" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-github"></i></a>
+    <div class="dropdown">
+      <a href="" title="Share" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Share"><i class="bi bi-share"></i></a>
+      <ul class="dropdown-menu" aria-labelledby="quarto-navigation-tool-dropdown-0">
+          <li>
+            <a class="dropdown-item sidebar-tools-main-item" href="https://twitter.com/intent/tweet?url=|url|">
+              <i class="bi bi-bi-twitter pe-1"></i>
+            Twitter
+            </a>
+          </li>
+          <li>
+            <a class="dropdown-item sidebar-tools-main-item" href="https://www.facebook.com/sharer/sharer.php?u=|url|">
+              <i class="bi bi-bi-facebook pe-1"></i>
+            Facebook
+            </a>
+          </li>
+          <li>
+            <a class="dropdown-item sidebar-tools-main-item" href="https://www.linkedin.com/sharing/share-offsite/?url=|url|">
+              <i class="bi bi-bi-linkedin pe-1"></i>
+            LinkedIn
+            </a>
+          </li>
+      </ul>
+    </div>
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+  <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
   <div class="quarto-reader-toggle-btn">
   <i class="bi"></i>
   </div>
@@ -151,84 +159,94 @@ gtag('config', 'G-GX6R5Z755F', { 'anonymize_ip': true});
 </div>
     </div>
       </div>
-      <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="mt-2 flex-shrink-0 align-items-center">
         <div class="sidebar-search">
         <div id="quarto-search" class="" title="Search"></div>
         </div>
-      </div>
+        </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link">Invitación</a>
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Invitación</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./presentacion.html" class="sidebar-item-text sidebar-link">Presentación</a>
+  <a href="./presentacion.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Presentación</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./introduccion.html" class="sidebar-item-text sidebar-link">Introducción</a>
+  <a href="./introduccion.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Introducción</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Cap_I.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Información y gestión pública</span></a>
+  <a href="./Cap_I.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Información y gestión pública</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Cap_II.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Las estadísticas</span></a>
+  <a href="./Cap_II.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Las estadísticas</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Cap_III.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Los indicadores</span></a>
+  <a href="./Cap_III.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Los indicadores</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Cap_IV.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Modelo P2C-T</span></a>
+  <a href="./Cap_IV.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Modelo P2C-T</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./conclusiones.html" class="sidebar-item-text sidebar-link">Conclusiones</a>
+  <a href="./conclusiones.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Conclusiones</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./references.html" class="sidebar-item-text sidebar-link">Referencias</a>
+  <a href="./references.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Referencias</span></a>
   </div>
 </li>
     </ul>
     </div>
 </nav>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">Tabla de contenido</h2>
    
   <ul>
-  <li><a href="#información" id="toc-información" class="nav-link active" data-scroll-target="#información"><span class="toc-section-number">1.1</span>  Información</a>
+  <li><a href="#información" id="toc-información" class="nav-link active" data-scroll-target="#información"><span class="header-section-number">1.1</span> Información</a>
   <ul class="collapse">
-  <li><a href="#definición-de-información" id="toc-definición-de-información" class="nav-link" data-scroll-target="#definición-de-información"><span class="toc-section-number">1.1.1</span>  Definición de información</a></li>
-  <li><a href="#campos-de-la-información" id="toc-campos-de-la-información" class="nav-link" data-scroll-target="#campos-de-la-información"><span class="toc-section-number">1.1.2</span>  Campos de la información</a></li>
+  <li><a href="#definición-de-información" id="toc-definición-de-información" class="nav-link" data-scroll-target="#definición-de-información"><span class="header-section-number">1.1.1</span> Definición de información</a></li>
+  <li><a href="#campos-de-la-información" id="toc-campos-de-la-información" class="nav-link" data-scroll-target="#campos-de-la-información"><span class="header-section-number">1.1.2</span> Campos de la información</a></li>
   </ul></li>
-  <li><a href="#gestión-pública" id="toc-gestión-pública" class="nav-link" data-scroll-target="#gestión-pública"><span class="toc-section-number">1.2</span>  Gestión pública</a>
+  <li><a href="#gestión-pública" id="toc-gestión-pública" class="nav-link" data-scroll-target="#gestión-pública"><span class="header-section-number">1.2</span> Gestión pública</a>
   <ul class="collapse">
-  <li><a href="#gestión" id="toc-gestión" class="nav-link" data-scroll-target="#gestión"><span class="toc-section-number">1.2.1</span>  Gestión</a></li>
-  <li><a href="#público" id="toc-público" class="nav-link" data-scroll-target="#público"><span class="toc-section-number">1.2.2</span>  Público</a></li>
-  <li><a href="#gestión-pública-1" id="toc-gestión-pública-1" class="nav-link" data-scroll-target="#gestión-pública-1"><span class="toc-section-number">1.2.3</span>  Gestión pública</a></li>
+  <li><a href="#gestión" id="toc-gestión" class="nav-link" data-scroll-target="#gestión"><span class="header-section-number">1.2.1</span> Gestión</a></li>
+  <li><a href="#público" id="toc-público" class="nav-link" data-scroll-target="#público"><span class="header-section-number">1.2.2</span> Público</a></li>
+  <li><a href="#gestión-pública-1" id="toc-gestión-pública-1" class="nav-link" data-scroll-target="#gestión-pública-1"><span class="header-section-number">1.2.3</span> Gestión pública</a></li>
   </ul></li>
-  <li><a href="#usos-de-la-información-en-la-gestión-pública" id="toc-usos-de-la-información-en-la-gestión-pública" class="nav-link" data-scroll-target="#usos-de-la-información-en-la-gestión-pública"><span class="toc-section-number">1.3</span>  Usos de la información en la gestión pública</a>
+  <li><a href="#usos-de-la-información-en-la-gestión-pública" id="toc-usos-de-la-información-en-la-gestión-pública" class="nav-link" data-scroll-target="#usos-de-la-información-en-la-gestión-pública"><span class="header-section-number">1.3</span> Usos de la información en la gestión pública</a>
   <ul class="collapse">
-  <li><a href="#uso-comunicativo" id="toc-uso-comunicativo" class="nav-link" data-scroll-target="#uso-comunicativo"><span class="toc-section-number">1.3.1</span>  Uso comunicativo</a></li>
-  <li><a href="#uso-de-registro" id="toc-uso-de-registro" class="nav-link" data-scroll-target="#uso-de-registro"><span class="toc-section-number">1.3.2</span>  Uso de registro</a></li>
-  <li><a href="#uso-valorativo" id="toc-uso-valorativo" class="nav-link" data-scroll-target="#uso-valorativo"><span class="toc-section-number">1.3.3</span>  Uso valorativo</a></li>
-  <li><a href="#uso-de-procesamiento" id="toc-uso-de-procesamiento" class="nav-link" data-scroll-target="#uso-de-procesamiento"><span class="toc-section-number">1.3.4</span>  Uso de procesamiento</a></li>
+  <li><a href="#uso-comunicativo" id="toc-uso-comunicativo" class="nav-link" data-scroll-target="#uso-comunicativo"><span class="header-section-number">1.3.1</span> Uso comunicativo</a></li>
+  <li><a href="#uso-de-registro" id="toc-uso-de-registro" class="nav-link" data-scroll-target="#uso-de-registro"><span class="header-section-number">1.3.2</span> Uso de registro</a></li>
+  <li><a href="#uso-valorativo" id="toc-uso-valorativo" class="nav-link" data-scroll-target="#uso-valorativo"><span class="header-section-number">1.3.3</span> Uso valorativo</a></li>
+  <li><a href="#uso-de-procesamiento" id="toc-uso-de-procesamiento" class="nav-link" data-scroll-target="#uso-de-procesamiento"><span class="header-section-number">1.3.4</span> Uso de procesamiento</a></li>
   </ul></li>
   </ul>
 <div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/estadisticaun/L_Conceptual1/edit/master/Cap_I.qmd" class="toc-action">Editar este libro</a></p></div></div></nav>
@@ -238,7 +256,7 @@ gtag('config', 'G-GX6R5Z755F', { 'anonymize_ip': true});
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Información y gestión pública</span></h1>
+<h1 class="title"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Información y gestión pública</span></h1>
 </div>
 
 
@@ -278,7 +296,7 @@ gtag('config', 'G-GX6R5Z755F', { 'anonymize_ip': true});
 <p>Hasta ahora se ha mostrado que Buckland expone tres usos posibles que se hacen del término <em>información</em>: como proceso, como conocimiento y como cosa. Resulta importante destacar que es posible establecer una distinción entre los términos que subyacen a los usos mencionados. Por ejemplo, el informático danés <span class="citation" data-cites="Ingwersen">(<a href="references.html#ref-Ingwersen" role="doc-biblioref">Ingwersen 1992</a>)</span> <a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a> establece una precisión clara que distingue datos, información y conocimiento. Para este autor, los datos se definen como información en potencia, es decir, información como cosa, que solo es realmente información cuando es percibida por un receptor. Así, para Ingwersen, la diferencia entre el dato (información potencial, que no ha sido percibida) y la información propiamente dicha tiene que ver con la transformación por parte del receptor de los datos a través de sus estructuras de conocimiento. Con respecto al conocimiento, Ingwersen menciona que ocurre cuando la información, es decir, los datos percibidos, modifican la estructura de conocimiento del receptor.</p>
 <p>Ahora bien, las definiciones de <span class="citation" data-cites="Buckland">(<a href="references.html#ref-Buckland" role="doc-biblioref">Buckland 1991</a>)</span> e <span class="citation" data-cites="Ingwersen">(<a href="references.html#ref-Ingwersen" role="doc-biblioref">Ingwersen 1992</a>)</span> no son opuestas ni contradictorias, sino que resultan complementarias. Buckland denomina <em>información como cosa</em> a lo que Ingwersen llama <em>dato</em>; información como proceso a lo que en Ingwersen es información en sentido estricto; y, finalmente, <em>información como conocimiento</em> a lo que, en términos de Ingwersen, es simplemente, <em>conocimiento</em>.</p>
 <p>Con todo, abordar el concepto de información desde una perspectiva pragmática involucra, por lo menos, tres elementos: un objeto que se puede administrar (p.&nbsp;ej. almacenar, medir, distribuir, copiar) y que vendría siendo <em>información como cosa</em> para Buckland o <em>dato</em> para Ingwersen; un proceso interactivo donde se comunica algo, <em>información como proceso</em> para Buckland o <em>información</em>, en sentido estricto, para Ingwersen y, por último, un aspecto conceptual, donde se sabe, se cree, se conoce o se opina algo, es decir, información como conocimiento <a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a> para Buckland o conocimiento para Ingwersen <a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a>.</p>
-<p><span class="citation" data-cites="Buckland">(<a href="references.html#ref-Buckland" role="doc-biblioref">Buckland 1991</a>)</span> argumenta que el ámbito académico se ha concen- trado, sobre todo, en la información como proceso y como conocimiento, no así en la información como cosa. Sin embargo, para el autor, la información como cosa posee una importancia notable en la medida en que los sistemas de información, encargados de procesar, preservar, extraer o predecir información, solo pueden operar con la información como cosa.</p>
+<p><span class="citation" data-cites="Buckland">(<a href="references.html#ref-Buckland" role="doc-biblioref">Buckland 1991</a>)</span> argumenta que el ámbito académico se ha concentrado, sobre todo, en la información como proceso y como conocimiento, no así en la información como cosa. Sin embargo, para el autor, la información como cosa posee una importancia notable en la medida en que los sistemas de información, encargados de procesar, preservar, extraer o predecir información, solo pueden operar con la información como cosa.</p>
 <p>En este punto, cabe destacar que el presente libro hace parte de una indagación estadística y la estadística involucra, justamente, una serie de técnicas de descripción, recopilación, registro y cálculo que se aplican al dato, a las cifras, a los documentos, en una palabra, a la información como cosa. De modo que tal noción de la información, en tanto información que es susceptible de ser procesada, resulta crucial para la estadística y, por lo tanto, para este libro. Desde este punto de vista, en adelante el texto se concentra en la concepción de <em>información como cosa</em>.</p>
 <p>La <em>información como cosa</em> hace referencia, justamente, a las cosas que pueden ser informativas, como, por ejemplo, un libro, una película o una base de datos. Pero ¿qué cosas pueden ser informativas? o, mejor, ¿qué cosas no lo son? Pues bien, para Buckland la información como cosa se caracteriza por ser prueba o evidencia de algo. Así, una cosa puede ser informativa en la medida en que sirva como evidencia de algo en alguna situación. De manera que, respondiendo a la pregunta de qué cosas no pueden ser informativas, el autor afirma que prácticamente cualquier cosa puede ser considerada información: “llegamos a la conclusión de que somos incapaces de decir con confianza que algo no podría ser información” <span class="citation" data-cites="Buckland">(<a href="references.html#ref-Buckland" role="doc-biblioref">Buckland 1991, 42:356</a>)</span>.</p>
 <p>Aun así, Buckland establece cuatro tipos de información como cosa: los datos, los documentos, los objetos y los eventos. A continuación, se aborda cada uno de ellos.</p>
@@ -348,13 +366,13 @@ gtag('config', 'G-GX6R5Z755F', { 'anonymize_ip': true});
 <p>La información se emplea de manera comunicativa cuando tiene el propósito explícito de transmitir un mensaje a algún receptor que, en muchas ocasiones, puede no ser un individuo en concreto, sino un receptor ideal. Algunos ejemplos de este uso son comunicados oficiales, citaciones, circulares, noticias, boletines informativos, manuales, descripción de funciones, publicaciones en redes sociales, memorandos, correos electrónicos, oficios, entre otros.</p>
 <p>Uno de los elementos más sobresalientes del uso comunicativo tiene que ver con dar a conocer lo que las entidades están haciendo. Así, se designan muchos recursos para crear dependencias particulares, contratar especialistas o generar canales específicos para difundir las actividades, los procesos, los objetivos o los logros de una organización. Los motivos de tales esfuerzos pueden ser variados. Por ejemplo, en primer lugar, a través de la difusión de aquello que está realizando —o que tiene previsto realizar— una entidad es posible captar la atención de un determinado público que puede contribuir a la visibilidad de la organización y a la construcción de una imagen favorable. En segundo lugar, la difusión de aquello que se realiza en una organización se relaciona con una cierta estrategia de evaluación y vigilancia que permite hacer seguimiento de las entidades. Pero este es ya, como se verá más adelante, otro uso de la información.</p>
 <p>Dentro del uso comunicativo, así como en los usos posteriores, hay un elemento ético sobre el que es importante reflexionar. En este caso, podemos hablar del control que suelen hacer algunas organizaciones de las comunicaciones que hacen sus funcionarios, por ejemplo, vigilando los mensajes de los correos electrónicos o restringiendo y monitoreando las páginas a las que acceden los funcionarios desde los equipos vinculados a la organización <a href="#fn6" class="footnote-ref" id="fnref6" role="doc-noteref"><sup>6</sup></a>. Otro elemento destacable dentro del componente ético al respecto del uso comunicativo de la información podría ser el de los correos no deseados, o <em>spam</em>.</p>
-<p>Finalmente, otro elemento importante dentro del componente ético tiene que ver con la no divulgación de aquella información que puede afectar la imagen de una entidad, aun si tal información hace parte de los procesos de gestión y es de vital importancia darla a conocer para cumplir con los procesos evaluativos y de rendición de cuentas. Todavía más, el encubrimiento de una determinada problemática dentro de los procesos de gestión en una entidad pública no permite alertar a las entidades correspondientes y consolidar un plan de acción que permita abordar desde una perspectiva informada tal problemática y sus efectos. En este sentido, en Colombia se ha consolidado la Ley 1712 de 2014 que pretende regular y fomentar la transparencia y el derecho de acceso a la información pú- blica nacional. No en balde, dentro del discurso habitual de las entidades públicas se suele hacer referencia a la transparencia de datos.</p>
+<p>Finalmente, otro elemento importante dentro del componente ético tiene que ver con la no divulgación de aquella información que puede afectar la imagen de una entidad, aun si tal información hace parte de los procesos de gestión y es de vital importancia darla a conocer para cumplir con los procesos evaluativos y de rendición de cuentas. Todavía más, el encubrimiento de una determinada problemática dentro de los procesos de gestión en una entidad pública no permite alertar a las entidades correspondientes y consolidar un plan de acción que permita abordar desde una perspectiva informada tal problemática y sus efectos. En este sentido, en Colombia se ha consolidado la Ley 1712 de 2014 que pretende regular y fomentar la transparencia y el derecho de acceso a la información pública nacional. No en balde, dentro del discurso habitual de las entidades públicas se suele hacer referencia a la transparencia de datos.</p>
 </section>
 <section id="uso-de-registro" class="level3" data-number="1.3.2">
 <h3 data-number="1.3.2" class="anchored" data-anchor-id="uso-de-registro"><span class="header-section-number">1.3.2</span> Uso de registro</h3>
 <p>Consiste en describir, representar e inventariar hechos, objetos, actividades, individuos o características a través de técnicas de cálculo y registro. Dentro de esta función entran en juego procedimientos como el conteo, la medición, la crónica, entre otros. Algunos ejemplos puntuales de elementos informativos que desempeñen la función de registro son los directorios, los inventarios, los libros de contabilidad, las listas de personal, los planes anuales de vacantes, entre otros. Además, dentro de la función de registro se incluye no solo el objetivo de describir, representar e inventariar, sino también de conservar la información obtenida a través de archivos físicos o digitales y el manejo que se le debe dar a tales archivos.</p>
 <p>Por otra parte, este uso no involucra el mero registro sin más. Hay una serie de normas, acuerdos y convenciones que suelen caracterizar los registros de información. Dicho de otro modo, el uso de la información en cuestión está determinado por una suerte de gramática que establece qué características son las que se registran del individuo (por ejemplo, el sexo en lugar del color de los ojos). La gramática no solo establece lo que se registra, sino también cómo se registra. En este sentido, hay una serie de estándares que cada organización establece para unificar sus registros. De hecho, hay una tendencia a establecer unos códigos compartidos a nivel mundial. Un buen ejemplo podría ser el de las normas ISO, que definen estándares internacionales. Pongamos por caso la norma ISO 3166 cuyo propósito es determinar una codificación específica y compartida a nivel internacional para nombrar territorios.</p>
-<p>Finalmente, es importante mencionar que en la época actual es común que se registre la mayor cantidad de datos de los usuarios en in- ternet. Así, los sitios web almacenan información sobre la ubicación, el dispositivo desde el cual se accede, el tiempo que el usuario permanece en la página, entre otros datos. Este fenómeno, como es obvio, supone la reflexión ética al respecto de qué debería y qué no debería ser registrado y, por supuesto, de qué se debería y qué no se debería hacer para obte- ner esos datos. Así, es posible hablar de fenómenos como la violación de la privacidad cuando se accede a datos particulares sin el permiso de los titulares, o cuando se ingresa de manera ilegal a bases de datos que almacenan información de carácter sensible <a href="#fn7" class="footnote-ref" id="fnref7" role="doc-noteref"><sup>7</sup></a>.</p>
+<p>Finalmente, es importante mencionar que en la época actual es común que se registre la mayor cantidad de datos de los usuarios en internet. Así, los sitios web almacenan información sobre la ubicación, el dispositivo desde el cual se accede, el tiempo que el usuario permanece en la página, entre otros datos. Este fenómeno, como es obvio, supone la reflexión ética al respecto de qué debería y qué no debería ser registrado y, por supuesto, de qué se debería y qué no se debería hacer para obtener esos datos. Así, es posible hablar de fenómenos como la violación de la privacidad cuando se accede a datos particulares sin el permiso de los titulares, o cuando se ingresa de manera ilegal a bases de datos que almacenan información de carácter sensible <a href="#fn7" class="footnote-ref" id="fnref7" role="doc-noteref"><sup>7</sup></a>.</p>
 <p>El uso de registro también supone un problema de carácter ético que tiene que ver con la concepción de la clasificación. En cierto sentido, toda clasificación deja algo por fuera y, al dejarlo, hace ver que eso que se queda por fuera no es. En palabras de Mèlich la clasificación</p>
 <blockquote class="blockquote">
 <p>… elimina (por absorción) lo diferente, lo distinto, lo heterogéneo, lo extraño. Las clasificaciones ordenan y rigen a priori formas de comportamiento y de acción. Son performativas, fijan “lo que es” y prescriben “lo que debe ser”. Una lógica —una ordenación categorial— posee elementos ontológicos, normativos y formativos. Por eso no hay clasificación alguna que “pueda simplemente ajustarse a los hechos”. <span class="citation" data-cites="Melich">(<a href="references.html#ref-Melich" role="doc-biblioref">Mèlich 2014, 30</a>)</span></p>
@@ -367,73 +385,73 @@ gtag('config', 'G-GX6R5Z755F', { 'anonymize_ip': true});
 <p>El uso valorativo de la información es, sin lugar a dudas, una línea dominante en el ámbito de la información en lo público. Se espera que tanto la ciudadanía como los organismos de control vigilen la gestión de las entidades. Además, la evaluación se consolida como una estrategia que le permite a las entidades determinar si las actividades realizadas efectivamente corresponden a lo que se suponía debía realizarse. De este modo, se pueden establecer planes de acción para corregir cualquier falencia o cambiar las metas y los objetivos.</p>
 <p>En este orden de ideas, es posible hablar de dos grandes tipos de evaluación. Por un lado, la evaluación externa, de la que se encargan, usualmente, organizaciones dedicadas a la vigilancia y el control, así como población civil. Por otro lado, la evaluación interna, que se refiere a las estrategias valorativas que aplica la misma entidad, como una auditoría interna.</p>
 <p>En la actualidad, el elemento predominante dentro del uso valorativo de la información en el ámbito de lo público es el de los objetivos y los indicadores. Estos se establecen en estrecha relación con las metas de los procesos de gestión y, de acuerdo con el Departamento Administrativo Nacional de Estadística <span class="citation" data-cites="DANE_2011">(<a href="references.html#ref-DANE_2011" role="doc-biblioref">DANE 2011</a>)</span>, tienen el propósito de describir características, comportamientos o fenómenos de la realidad desde los cuales pueda valorarse el plan, programa o proyecto. En este punto, un elemento de carácter ético que vale la pena considerarse es el de la manipulación de la información con el propósito de mostrar que las metas y los objetivos de los planes, programas o proyectos se alcanzaron de acuerdo con lo previsto, aunque no sea así. Este elemento supone las problemáticas asociadas a la manipulación de datos, que van desde alterar una cifra hasta forzar un dato para que dé cuenta de algo ya decidido de antemano o, incluso, el recalco que se puede hacer de determinadas cifras a través de elementos gráficos, como tablas o barras, incluso colores o figuras, para priorizar información favorable a los procesos evaluativos que se estén llevando a cabo <a href="#fn8" class="footnote-ref" id="fnref8" role="doc-noteref"><sup>8</sup></a>.</p>
-<p>Todavía más, el mero establecimiento de metas y objetivos conlleva un elemento ético. La gestión pública involucra una cierta intervención social, de modo que las metas y los objetivos que siga un plan, programa o proyecto definen y, si se quiere, priorizan las necesidades de una comunidad. Por ejemplo, un proyecto puede tener como objetivo entregar recursos tecnológicos en un territorio puntual, mientras que la población de ese mismo territorio no tiene condiciones suficientes para una alimentación adecuada. Por esto es que, además de la valoración de los procesos de gestión, vale la pena tener en cuenta la valoración a través de estrategias aritméticas básicas como el conteo, que permiten consolidar cifras (p.&nbsp;ej. el número de vinculados a una entidad o el número de personas en con- dición de vulnerabilidad) que tienen un valor fundamental y pertinente dentro de las diferentes valoraciones de interés para una entidad.</p>
+<p>Todavía más, el mero establecimiento de metas y objetivos conlleva un elemento ético. La gestión pública involucra una cierta intervención social, de modo que las metas y los objetivos que siga un plan, programa o proyecto definen y, si se quiere, priorizan las necesidades de una comunidad. Por ejemplo, un proyecto puede tener como objetivo entregar recursos tecnológicos en un territorio puntual, mientras que la población de ese mismo territorio no tiene condiciones suficientes para una alimentación adecuada. Por esto es que, además de la valoración de los procesos de gestión, vale la pena tener en cuenta la valoración a través de estrategias aritméticas básicas como el conteo, que permiten consolidar cifras (p.&nbsp;ej. el número de vinculados a una entidad o el número de personas en condición de vulnerabilidad) que tienen un valor fundamental y pertinente dentro de las diferentes valoraciones de interés para una entidad.</p>
 <p>Finalmente, los diferentes usos de la información en la gestión pública pueden estar relacionados. Para este caso, la relación se presenta entre el uso de registro, el uso valorativo y el comunicativo. Es necesario buscar y recopilar información, ya sea a través de procedimientos arit- méticos básicos (como el conteo) o a través de indicadores de gestión, para que la valoración se pueda llevar a cabo. De manera similar, junto con los procesos de evaluación puede haber un interés comunicativo, que se evidencia en el uso de informes para dar a conocer los <em>resultados</em> de cualquier etapa del proceso de consolidación y gestión de la información.</p>
 </section>
 <section id="uso-de-procesamiento" class="level3" data-number="1.3.4">
 <h3 data-number="1.3.4" class="anchored" data-anchor-id="uso-de-procesamiento"><span class="header-section-number">1.3.4</span> Uso de procesamiento</h3>
-<p>A partir de un conjunto de operaciones, o procesos, se busca trans- formar la información existente en nueva información. Con frecuencia, tal transformación persigue el propósito de incidir en la toma de decisiones. De hecho, el procesamiento de información se constituye como una característica interpretativa e interactiva del ser humano con su entorno y con los demás. Así, frente a un elemento informativo, como podría ser el humo, una persona podría llevar a cabo un procesamiento de tal información para advertir un incendio.</p>
+<p>A partir de un conjunto de operaciones, o procesos, se busca transformar la información existente en nueva información. Con frecuencia, tal transformación persigue el propósito de incidir en la toma de decisiones. De hecho, el procesamiento de información se constituye como una característica interpretativa e interactiva del ser humano con su entorno y con los demás. Así, frente a un elemento informativo, como podría ser el humo, una persona podría llevar a cabo un procesamiento de tal información para advertir un incendio.</p>
 <p>Ahora bien, con la incidencia de las TIC, así como con el desarrollo del internet y la importancia concedida a la información en la época actual se han desarrollado técnicas sofisticadas de procesamiento de información como la minería de datos, el procesamiento de lenguaje natural o el <em>big data</em>; sin embargo, las actividades aritméticas básicas ya son, de por sí, herramientas de procesamiento de información.</p>
 <p>El propósito de este libro no es caracterizar las estrategias de procesamiento de la información, ni argumentar en favor de unas o de otras. No obstante, la tendencia bastante extendida a supervalorar sofisticados algoritmos en detrimento de procesamientos aritméticos básicos puede tener algunas implicaciones que vale la pena considerar: en ocasiones, la tecnología desdibuja la realidad social. Por ejemplo, podría darse una situación en la que los esfuerzos de procesamiento de información estén concentrados en, por decir algo, determinar los campos semánticos de los discursos de los gobernantes de un territorio a través de un sofisticado sistema de procesamiento de lenguaje natural, mientras que, por otra parte, se desconoce el número de personas en situación de vulnerabilidad de ese mismo territorio. Tal número resulta, justamente, del procesamiento a través de técnicas aritméticas básicas y puede ser más oportuno para un programa de intervención que beneficie a la comunidad.</p>
 <p>El uso de procesamiento es transversal a los demás usos de la información, pues, constantemente, la información se procesa para generar algún tipo de <em>comunicación</em>, para ser <em>almacenada</em> y, por supuesto, para llevar a cabo procesos <em>valorativos</em>. Un ejemplo de procesamiento de la información puede ser la sistematización y el análisis de datos que hace el <span class="citation" data-cites="DANE_2018">(<a href="references.html#ref-DANE_2018" role="doc-biblioref">DANE 2018</a>)</span> del Censo Nacional de Población y Vivienda, donde, <em>grosso modo</em>, a partir de la información suministrada de manera individual por cada vivienda censada, se llega a conclusiones de la población nacional <a href="#fn9" class="footnote-ref" id="fnref9" role="doc-noteref"><sup>9</sup></a>.</p>
 
 
-<div id="refs" class="references csl-bib-body hanging-indent" role="doc-bibliography" style="display: none">
-<div id="ref-Borges" class="csl-entry" role="doc-biblioentry">
+<div id="refs" class="references csl-bib-body hanging-indent" role="list" style="display: none">
+<div id="ref-Borges" class="csl-entry" role="listitem">
 Borges, J. L. 1974. <em>El Idioma Analítico de John Wilkins</em>. En Obras Completas (1923-1972), Emecé Editores.
 </div>
-<div id="ref-Bozeman" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Bozeman" class="csl-entry" role="listitem">
 Bozeman, B. 1998. <em>La Gestión Pública: Su Situación Actual</em>. Fondo de Cultura Económica. <a href="http://biblioteca.ufm.edu/opac/record/89143">http://biblioteca.ufm.edu/opac/record/89143</a>.
 </div>
-<div id="ref-Buckland" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Buckland" class="csl-entry" role="listitem">
 Buckland, M. K. 1991. <em>Information as Thing</em>. Vol. 42. 5. Journal of the American Society for Information Science.
 </div>
-<div id="ref-Castells" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Castells" class="csl-entry" role="listitem">
 Castells, M. 1995. <em>La Ciudad Informacional: Tecnologías de La Información, Re-Estructuración Económica y El Proceso Urbano-Regional</em>. Alianza. <a href="https:// dialnet.unirioja.es/servlet/libro?codigo=17506">https:// dialnet.unirioja.es/servlet/libro?codigo=17506</a>.
 </div>
-<div id="ref-DANE_2011" class="csl-entry" role="doc-biblioentry">
+<div id="ref-DANE_2011" class="csl-entry" role="listitem">
 DANE. 2011. <em>Introducción Al Diseño, Construcción e Interpretación de Indicadores</em>.
 </div>
-<div id="ref-DANE_2018" class="csl-entry" role="doc-biblioentry">
+<div id="ref-DANE_2018" class="csl-entry" role="listitem">
 ———. 2018. <em>Censo Nacional de Población y Vivienda 2018</em>. <a href="https://www.dane.gov.co/index.php/estadisticas-por-tema/demografia-y-poblacion/censo-nacional-de-poblacion-y-vivenda-2018">https://www.dane.gov.co/index.php/estadisticas-por-tema/demografia-y-poblacion/censo-nacional-de-poblacion-y-vivenda-2018</a>.
 </div>
-<div id="ref-Garcia" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Garcia" class="csl-entry" role="listitem">
 García, F. 1998. <em>El Concepto de Información: Una Aproximación Transdisciplinar</em>. Vol. 8. 1. Revista General de Información y Documentación.
 </div>
-<div id="ref-Goodrow" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Goodrow" class="csl-entry" role="listitem">
 Goodrow, C. (s.f.). <em>You Know What’s Cool? A Billion Hours</em>. Blog. Youtube. <a href="https:// blog.youtube/news-and-events you-know-whats-cool-billion-hours/">https:// blog.youtube/news-and-events you-know-whats-cool-billion-hours/</a>.
 </div>
-<div id="ref-Greenfield" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Greenfield" class="csl-entry" role="listitem">
 Greenfield, P. 2018. <em>The Cambridge Analytica Files: The Story so Far</em>. The Guardian. <a href="https://www.theguardian.com/news/2018/mar/26/the-cambridge-analytica-files-the-story-so-far">https://www.theguardian.com/news/2018/mar/26/the-cambridge-analytica-files-the-story-so-far</a>.
 </div>
-<div id="ref-Huff" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Huff" class="csl-entry" role="listitem">
 Huff, D. 2023. <em>How to Lie with Statistics</em>. Penguin UK.
 </div>
-<div id="ref-Ingwersen" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Ingwersen" class="csl-entry" role="listitem">
 Ingwersen, P. 1992. <em>Information and Information Science in Context</em>. Vol. 42. 2. <a href="https://doi.org/10.1515/libr.1992.42.2.99">https://doi.org/10.1515/libr.1992.42.2.99</a>.
 </div>
-<div id="ref-Masuda" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Masuda" class="csl-entry" role="listitem">
 Masuda, Y. 1984. <em>La Sociedad Informatizada Como Sociedad Post-Industrial</em>. Tecnos. <a href="https://dialnet.unirioja.es/servlet/libro?codigo=235313">https://dialnet.unirioja.es/servlet/libro?codigo=235313</a>.
 </div>
-<div id="ref-Cukier" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Cukier" class="csl-entry" role="listitem">
 Mayer-Schönberger V., Cukier K. 2016. <em>Big Data: La Revolución de Los Datos Masivo</em>. Turner.
 </div>
-<div id="ref-Melich" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Melich" class="csl-entry" role="listitem">
 Mèlich, J. 2014. <em>Lógica de La Crueldad</em>. Herder Editorial.
 </div>
-<div id="ref-Moore" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Moore" class="csl-entry" role="listitem">
 Moore, N. 1997. <em>La Sociedad de La Información</em>. En Informe mundial sobre la información. Unesco. <a href="https://unesdoc.unesco.org/ark:/48223/pf0000110221">https://unesdoc.unesco.org/ark:/48223/pf0000110221</a>.
 </div>
-<div id="ref-Munoz" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Munoz" class="csl-entry" role="listitem">
 Muñoz, P. 2020. <em>La Gestión Pública: De Los Modelos Al Territorio. En f. Sánchez y n. Liendo, Manual de Ciencia Política y Relaciones Internacionales</em>. Universidad Sergio Arboleda.
 </div>
-<div id="ref-Pariser" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Pariser" class="csl-entry" role="listitem">
 Pariser, E. 2011. <em>The Filter Bubble: How the New Personalized Web Is Changing What We Read and How We Think. Penguin</em>.
 </div>
-<div id="ref-Rendon" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Rendon" class="csl-entry" role="listitem">
 Rendón, M. 2017. <em>El Concepto de Información Desde Una Óptica de La Filosofía de La Bibliotecología y Estudios de La Información. Significados e Interpretaciones de La Información Desde El Usuario</em>. UNAM, Instituto de Investigaciones Bibliotecnológicas y de la Información.
 </div>
-<div id="ref-Zuboff" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Zuboff" class="csl-entry" role="listitem">
 Zuboff, S. 2020. <em>La Era Del Capitalismo de La Vigilancia: La Lucha Por Un Futuro Humano Frente a Las Nuevas Fronteras Del Poder</em>. Paidós.
 </div>
 </div>
@@ -597,9 +615,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
     }
   });
   clipboard.on('success', function(e) {
@@ -664,6 +696,92 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
   const findCites = (el) => {
     const parentEl = el.parentElement;
     if (parentEl) {
@@ -719,7 +837,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left"><a href="https://estadisticas.unal.edu.co/home/" target="_blank">Oficina Nacional de Estadística</a><br><a href="https://planeacion.unal.edu.co/home/" target="_blank">Dirección Nacional de Planeación y Estadística</a><br>Universidad Nacional de Colombia.</div>   
-      <div class="nav-footer-center">Estadísticas e Indicadores</div>
+    <div class="nav-footer-center">Estadísticas e Indicadores</div>
     <div class="nav-footer-right">Este libro fue construido con <a href="https://quarto.org/" target="_blank">Quarto</a>.</div>
   </div>
 </footer>

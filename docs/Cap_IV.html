@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.2.335">
+<meta name="generator" content="quarto-1.3.450">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -17,14 +17,15 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for citations */
 div.csl-bib-body { }
 div.csl-entry {
   clear: both;
 }
-.hanging div.csl-entry {
+.hanging-indent div.csl-entry {
   margin-left:2em;
   text-indent:-2em;
 }
@@ -38,8 +39,7 @@ div.csl-right-inline {
 }
 div.csl-indent {
   margin-left: 2em;
-}
-</style>
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -79,7 +79,8 @@ div.csl-indent {
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
     "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit"
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
   }
 }</script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-GX6R5Z755F"></script>
@@ -100,11 +101,16 @@ gtag('config', 'G-GX6R5Z755F', { 'anonymize_ip': true});
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-    <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Modelo P2C-T</span></h1>
-      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
-        <i class="bi bi-chevron-right"></i>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./Cap_IV.html"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Modelo P2C-T</span></a></li></ol></nav>
+      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+      </a>
+      <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
       </button>
     </div>
   </nav>
@@ -112,7 +118,7 @@ gtag('config', 'G-GX6R5Z755F', { 'anonymize_ip': true});
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header sidebar-header-stacked">
       <a href="./index.html" class="sidebar-logo-link">
       <img src="./Imagenes/portada.jpg" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
@@ -120,30 +126,32 @@ gtag('config', 'G-GX6R5Z755F', { 'anonymize_ip': true});
     <div class="sidebar-title mb-0 py-0">
       <a href="./"></a> 
         <div class="sidebar-tools-main tools-wide">
-    <a href="https://github.com/estadisticaun/L_Conceptual1" title="Source Code" class="sidebar-tool px-1"><i class="bi bi-github"></i></a>
-    <a href="" title="Share" id="sidebar-tool-dropdown-0" class="sidebar-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false"><i class="bi bi-share"></i></a>
-    <ul class="dropdown-menu" aria-labelledby="sidebar-tool-dropdown-0">
-        <li>
-          <a class="dropdown-item sidebar-tools-main-item" href="https://twitter.com/intent/tweet?url=|url|">
-            <i class="bi bi-bi-twitter pe-1"></i>
-          Twitter
-          </a>
-        </li>
-        <li>
-          <a class="dropdown-item sidebar-tools-main-item" href="https://www.facebook.com/sharer/sharer.php?u=|url|">
-            <i class="bi bi-bi-facebook pe-1"></i>
-          Facebook
-          </a>
-        </li>
-        <li>
-          <a class="dropdown-item sidebar-tools-main-item" href="https://www.linkedin.com/sharing/share-offsite/?url=|url|">
-            <i class="bi bi-bi-linkedin pe-1"></i>
-          LinkedIn
-          </a>
-        </li>
-    </ul>
-  <a href="" class="quarto-color-scheme-toggle sidebar-tool" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
-  <a href="" class="quarto-reader-toggle sidebar-tool" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
+    <a href="https://github.com/estadisticaun/L_Conceptual1" rel="" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-github"></i></a>
+    <div class="dropdown">
+      <a href="" title="Share" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Share"><i class="bi bi-share"></i></a>
+      <ul class="dropdown-menu" aria-labelledby="quarto-navigation-tool-dropdown-0">
+          <li>
+            <a class="dropdown-item sidebar-tools-main-item" href="https://twitter.com/intent/tweet?url=|url|">
+              <i class="bi bi-bi-twitter pe-1"></i>
+            Twitter
+            </a>
+          </li>
+          <li>
+            <a class="dropdown-item sidebar-tools-main-item" href="https://www.facebook.com/sharer/sharer.php?u=|url|">
+              <i class="bi bi-bi-facebook pe-1"></i>
+            Facebook
+            </a>
+          </li>
+          <li>
+            <a class="dropdown-item sidebar-tools-main-item" href="https://www.linkedin.com/sharing/share-offsite/?url=|url|">
+              <i class="bi bi-bi-linkedin pe-1"></i>
+            LinkedIn
+            </a>
+          </li>
+      </ul>
+    </div>
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+  <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
   <div class="quarto-reader-toggle-btn">
   <i class="bi"></i>
   </div>
@@ -151,84 +159,94 @@ gtag('config', 'G-GX6R5Z755F', { 'anonymize_ip': true});
 </div>
     </div>
       </div>
-      <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="mt-2 flex-shrink-0 align-items-center">
         <div class="sidebar-search">
         <div id="quarto-search" class="" title="Search"></div>
         </div>
-      </div>
+        </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link">Invitación</a>
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Invitación</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./presentacion.html" class="sidebar-item-text sidebar-link">Presentación</a>
+  <a href="./presentacion.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Presentación</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./introduccion.html" class="sidebar-item-text sidebar-link">Introducción</a>
+  <a href="./introduccion.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Introducción</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Cap_I.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Información y gestión pública</span></a>
+  <a href="./Cap_I.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Información y gestión pública</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Cap_II.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Las estadísticas</span></a>
+  <a href="./Cap_II.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Las estadísticas</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Cap_III.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Los indicadores</span></a>
+  <a href="./Cap_III.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Los indicadores</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Cap_IV.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Modelo P2C-T</span></a>
+  <a href="./Cap_IV.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Modelo P2C-T</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./conclusiones.html" class="sidebar-item-text sidebar-link">Conclusiones</a>
+  <a href="./conclusiones.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Conclusiones</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./references.html" class="sidebar-item-text sidebar-link">Referencias</a>
+  <a href="./references.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Referencias</span></a>
   </div>
 </li>
     </ul>
     </div>
 </nav>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">Tabla de contenido</h2>
    
   <ul>
-  <li><a href="#definición" id="toc-definición" class="nav-link active" data-scroll-target="#definición"><span class="toc-section-number">4.1</span>  Definición</a></li>
-  <li><a href="#planeación-estadística-p" id="toc-planeación-estadística-p" class="nav-link" data-scroll-target="#planeación-estadística-p"><span class="toc-section-number">4.2</span>  Planeación estadística (P)</a></li>
-  <li><a href="#conceptualización-y-metodología-c" id="toc-conceptualización-y-metodología-c" class="nav-link" data-scroll-target="#conceptualización-y-metodología-c"><span class="toc-section-number">4.3</span>  Conceptualización y metodología (C)</a></li>
-  <li><a href="#producción-estadística-p" id="toc-producción-estadística-p" class="nav-link" data-scroll-target="#producción-estadística-p"><span class="toc-section-number">4.4</span>  Producción estadística (P)</a></li>
-  <li><a href="#tecnología-t" id="toc-tecnología-t" class="nav-link" data-scroll-target="#tecnología-t"><span class="toc-section-number">4.5</span>  Tecnología (T)</a>
+  <li><a href="#definición" id="toc-definición" class="nav-link active" data-scroll-target="#definición"><span class="header-section-number">4.1</span> Definición</a></li>
+  <li><a href="#planeación-estadística-p" id="toc-planeación-estadística-p" class="nav-link" data-scroll-target="#planeación-estadística-p"><span class="header-section-number">4.2</span> Planeación estadística (P)</a></li>
+  <li><a href="#conceptualización-y-metodología-c" id="toc-conceptualización-y-metodología-c" class="nav-link" data-scroll-target="#conceptualización-y-metodología-c"><span class="header-section-number">4.3</span> Conceptualización y metodología (C)</a></li>
+  <li><a href="#producción-estadística-p" id="toc-producción-estadística-p" class="nav-link" data-scroll-target="#producción-estadística-p"><span class="header-section-number">4.4</span> Producción estadística (P)</a></li>
+  <li><a href="#tecnología-t" id="toc-tecnología-t" class="nav-link" data-scroll-target="#tecnología-t"><span class="header-section-number">4.5</span> Tecnología (T)</a>
   <ul class="collapse">
-  <li><a href="#infraestructura-tecnológica-general-para-la-gestión-de-datos" id="toc-infraestructura-tecnológica-general-para-la-gestión-de-datos" class="nav-link" data-scroll-target="#infraestructura-tecnológica-general-para-la-gestión-de-datos"><span class="toc-section-number">4.5.1</span>  Infraestructura tecnológica general para la gestión de datos</a></li>
-  <li><a href="#softwares-especializados-en-gestión-de-datos" id="toc-softwares-especializados-en-gestión-de-datos" class="nav-link" data-scroll-target="#softwares-especializados-en-gestión-de-datos"><span class="toc-section-number">4.5.2</span>  <em>Softwares</em> especializados en gestión de datos</a></li>
-  <li><a href="#herramientas-tecnológicas-utilizadas-por-la-unal-para-la-gestión-de-los-datos" id="toc-herramientas-tecnológicas-utilizadas-por-la-unal-para-la-gestión-de-los-datos" class="nav-link" data-scroll-target="#herramientas-tecnológicas-utilizadas-por-la-unal-para-la-gestión-de-los-datos"><span class="toc-section-number">4.5.3</span>  Herramientas tecnológicas utilizadas por la UNAL para la gestión de los datos</a></li>
-  <li><a href="#aporte-de-la-unal-a-la-producción-de-estadísticas-institucionales.-el-paquete-de-r-unalr" id="toc-aporte-de-la-unal-a-la-producción-de-estadísticas-institucionales.-el-paquete-de-r-unalr" class="nav-link" data-scroll-target="#aporte-de-la-unal-a-la-producción-de-estadísticas-institucionales.-el-paquete-de-r-unalr"><span class="toc-section-number">4.5.4</span>  Aporte de la UNAL a la producción de estadísticas institucionales. El paquete de R UnalR</a></li>
+  <li><a href="#infraestructura-tecnológica-general-para-la-gestión-de-datos" id="toc-infraestructura-tecnológica-general-para-la-gestión-de-datos" class="nav-link" data-scroll-target="#infraestructura-tecnológica-general-para-la-gestión-de-datos"><span class="header-section-number">4.5.1</span> Infraestructura tecnológica general para la gestión de datos</a></li>
+  <li><a href="#softwares-especializados-en-gestión-de-datos" id="toc-softwares-especializados-en-gestión-de-datos" class="nav-link" data-scroll-target="#softwares-especializados-en-gestión-de-datos"><span class="header-section-number">4.5.2</span> <em>Softwares</em> especializados en gestión de datos</a></li>
+  <li><a href="#herramientas-tecnológicas-utilizadas-por-la-unal-para-la-gestión-de-los-datos" id="toc-herramientas-tecnológicas-utilizadas-por-la-unal-para-la-gestión-de-los-datos" class="nav-link" data-scroll-target="#herramientas-tecnológicas-utilizadas-por-la-unal-para-la-gestión-de-los-datos"><span class="header-section-number">4.5.3</span> Herramientas tecnológicas utilizadas por la UNAL para la gestión de los datos</a></li>
+  <li><a href="#aporte-de-la-unal-a-la-producción-de-estadísticas-institucionales.-el-paquete-de-r-unalr" id="toc-aporte-de-la-unal-a-la-producción-de-estadísticas-institucionales.-el-paquete-de-r-unalr" class="nav-link" data-scroll-target="#aporte-de-la-unal-a-la-producción-de-estadísticas-institucionales.-el-paquete-de-r-unalr"><span class="header-section-number">4.5.4</span> Aporte de la UNAL a la producción de estadísticas institucionales. El paquete de R UnalR</a></li>
   </ul></li>
-  <li><a href="#cultura-estadística-c" id="toc-cultura-estadística-c" class="nav-link" data-scroll-target="#cultura-estadística-c"><span class="toc-section-number">4.6</span>  Cultura estadística (C)</a></li>
-  <li><a href="#soportes-del-modelo-p2c-t" id="toc-soportes-del-modelo-p2c-t" class="nav-link" data-scroll-target="#soportes-del-modelo-p2c-t"><span class="toc-section-number">4.7</span>  Soportes del modelo P2C-T</a>
+  <li><a href="#cultura-estadística-c" id="toc-cultura-estadística-c" class="nav-link" data-scroll-target="#cultura-estadística-c"><span class="header-section-number">4.6</span> Cultura estadística (C)</a></li>
+  <li><a href="#soportes-del-modelo-p2c-t" id="toc-soportes-del-modelo-p2c-t" class="nav-link" data-scroll-target="#soportes-del-modelo-p2c-t"><span class="header-section-number">4.7</span> Soportes del modelo P2C-T</a>
   <ul class="collapse">
-  <li><a href="#apoyo-institucional" id="toc-apoyo-institucional" class="nav-link" data-scroll-target="#apoyo-institucional"><span class="toc-section-number">4.7.1</span>  Apoyo institucional</a></li>
-  <li><a href="#talento-humano" id="toc-talento-humano" class="nav-link" data-scroll-target="#talento-humano"><span class="toc-section-number">4.7.2</span>  Talento humano</a></li>
-  <li><a href="#recursos-económicos" id="toc-recursos-económicos" class="nav-link" data-scroll-target="#recursos-económicos"><span class="toc-section-number">4.7.3</span>  Recursos económicos</a></li>
+  <li><a href="#apoyo-institucional" id="toc-apoyo-institucional" class="nav-link" data-scroll-target="#apoyo-institucional"><span class="header-section-number">4.7.1</span> Apoyo institucional</a></li>
+  <li><a href="#talento-humano" id="toc-talento-humano" class="nav-link" data-scroll-target="#talento-humano"><span class="header-section-number">4.7.2</span> Talento humano</a></li>
+  <li><a href="#recursos-económicos" id="toc-recursos-económicos" class="nav-link" data-scroll-target="#recursos-económicos"><span class="header-section-number">4.7.3</span> Recursos económicos</a></li>
   </ul></li>
   </ul>
 <div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/estadisticaun/L_Conceptual1/edit/master/Cap_IV.qmd" class="toc-action">Editar este libro</a></p></div></div></nav>
@@ -238,7 +256,7 @@ gtag('config', 'G-GX6R5Z755F', { 'anonymize_ip': true});
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Modelo P2C-T</span></h1>
+<h1 class="title"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Modelo P2C-T</span></h1>
 </div>
 
 
@@ -263,10 +281,8 @@ gtag('config', 'G-GX6R5Z755F', { 'anonymize_ip': true});
 <p>En lo que sigue del presente libro, se define el Modelo P2C-T, que resulta de la experiencia acumulada por la UNAL durante los últimos años. El modelo se define con el propósito de fortalecer la conformación de estadísticas e indicadores, especialmente en el ámbito de la educación superior, en particular en las instituciones públicas. Así las cosas, el objetivo de este capítulo no es proponer una metodología para que sea adoptada por las instituciones, para ello se recomienda la consulta de los modelos establecidos a nivel estatal.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<figure class="figure">
-<img src="Imagenes/Gráfica 5.png" title="Representación gráfica Modelo P2C-T" class="img-fluid figure-img" style="width:70.0%">
-</figure>
-<p></p><figcaption class="figure-caption">Gráfica 5. Representación gráfica Modelo P2C-T. Fuente: elaboración propia.</figcaption><p></p>
+<p><img src="Imagenes/Gráfica 5.png" title="Representación gráfica Modelo P2C-T" class="img-fluid figure-img" style="width:70.0%"></p>
+<figcaption class="figure-caption">Gráfica 5. Representación gráfica Modelo P2C-T. Fuente: elaboración propia.</figcaption>
 </figure>
 </div>
 <p>Como se observa en la Gráfica 5, el Modelo P2C-T está compuesto por cinco dimensiones y tres soportes que favorecen la implementación a nivel público de acciones orientadas al uso de los datos disponibles. Las dimensiones del modelo reconocen, primero, la importancia de la planeación estadística de corto, mediano y largo plazo (P); segundo, la disposición de elementos conceptuales y metodológicos que orienten el ejercicio cuantitativo (C); tercero, la disposición de datos y la producción con calidad y de manera recurrente de la información estadística requerida a nivel institucional (P); cuarto, el acceso y el dominio de las herramientas tecnológicas requeridas para la gestión contemporánea de los datos (T); quinto, el fomento de una cultura estadística en las entidades interesadas en la gestión y uso de la información cuantitativa (C). Las dimensiones en consideración no se pueden desarrollar de manera adecuada sin la disposición de tres soportes requeridos a nivel institucional: primero, apuesta institucional para acceder al valor contenido en los datos disponibles; segundo, acceso y disposición de recursos financieros para el fortalecimiento de la actividad estadística y, tercero, acceso al talento humano especializado en la gestión de datos de naturaleza cuantitativa.</p>
@@ -296,10 +312,8 @@ gtag('config', 'G-GX6R5Z755F', { 'anonymize_ip': true});
 <p>Pues bien, la gestión de los datos implica tener en cuenta que los diferentes enfoques estadísticos que se pueden aplicar a los datos <a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a> y sus distintos usos en el ámbito público <a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a> llevan consigo aspectos conceptuales, metodológicos y procedimentales diversos. Por ejemplo, diversidad de directrices, lineamientos, normativas y políticas; variedad en los alcances y usos de los datos cuantitativos; multiplicidad de disciplinas y enfoques interesados en el abordaje de datos; diversidad de propósitos y aplicaciones; amplia variedad de herramientas tecnológicas disponibles, entre otras. La unión de estos elementos crea un entramado complejo que orbita alrededor del mundo de los datos en la actualidad, como se muestra en la Gráfica 6.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<figure class="figure">
-<img src="Imagenes/Gráfica 6.png" title="Contexto contemporáneo de los datos" class="img-fluid figure-img" style="width:70.0%">
-</figure>
-<p></p><figcaption class="figure-caption">Gráfica 6. Contexto contemporáneo de los datos. Fuente: Rodríguez y Bernal (2019).</figcaption><p></p>
+<p><img src="Imagenes/Gráfica 6.png" title="Contexto contemporáneo de los datos" class="img-fluid figure-img" style="width:70.0%"></p>
+<figcaption class="figure-caption">Gráfica 6. Contexto contemporáneo de los datos. Fuente: Rodríguez y Bernal (2019).</figcaption>
 </figure>
 </div>
 <p>De este modo, la segunda dimensión del modelo P2C-T, sobre <em>conceptualización y metodología</em>, tiene que ver con definir criterios para la clasificación y organización de los datos, así como normas y estándares para su recopilación, almacenamiento y uso. Lo anterior teniendo en cuenta la amplia gama de tipos de datos disponibles, enfoques de análisis, estrategias estadísticas, entidades interesadas y demás componentes propios de la diversidad de la información cuantitativa. Si tales criterios y definiciones no son tenidos en cuenta, los datos se pueden usar de manera inadecuada y, así, en la disposición de cifras o análisis cuantitativos errados o con bajos niveles de calidad que generan desinformación y desconfianza.</p>
@@ -314,18 +328,14 @@ gtag('config', 'G-GX6R5Z755F', { 'anonymize_ip': true});
 <p>En las gráficas 7 y 8 se describen las fases del proceso estadístico desde la norma NTC PE 1000:</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<figure class="figure">
-<img src="Imagenes/Gráfica 8.png" title="Proceso estadístico desde la norma NTC PE 1000" class="img-fluid figure-img" style="width:70.0%">
-</figure>
-<p></p><figcaption class="figure-caption">Gráfica 7. Proceso estadístico desde la norma NTC PE 1000. Fuente: adaptado del DANE.</figcaption><p></p>
+<p><img src="Imagenes/Gráfica 8.png" title="Proceso estadístico desde la norma NTC PE 1000" class="img-fluid figure-img" style="width:70.0%"></p>
+<figcaption class="figure-caption">Gráfica 7. Proceso estadístico desde la norma NTC PE 1000. Fuente: adaptado del DANE.</figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<figure class="figure">
-<img src="Imagenes/Gráfica 9.png" title="Etapas de evaluación NTC PE 1000" class="img-fluid figure-img" style="width:70.0%">
-</figure>
-<p></p><figcaption class="figure-caption">Gráfica 8. Etapas de evaluación NTC PE 1000. Fuente: adaptado del DANE.</figcaption><p></p>
+<p><img src="Imagenes/Gráfica 9.png" title="Etapas de evaluación NTC PE 1000" class="img-fluid figure-img" style="width:70.0%"></p>
+<figcaption class="figure-caption">Gráfica 8. Etapas de evaluación NTC PE 1000. Fuente: adaptado del DANE.</figcaption>
 </figure>
 </div>
 <p>Para el caso de la UNAL, la información estadística oficial se dispone y produce a través de un <em>proceso</em> que involucra las siguientes etapas: captura, importación, limpieza y transformación, producción y visualización, comunicación y difusión <a href="#fn7" class="footnote-ref" id="fnref7" role="doc-noteref"><sup>7</sup></a>. Asimismo, desde el Sistema Integrado de Gestión Académica, Administrativa y Ambiental (SIGA) se disponen, para la UNAL, una serie de procedimientos del Sistema de Gestión de Calidad que buscan, entre otras cosas, armonizar los sistemas de calidad internos con normas nacionales, como la NTC PE 1000 <span class="citation" data-cites="DANE_2020d">(<a href="references.html#ref-DANE_2020d" role="doc-biblioref">DANE 2020d</a>)</span>.</p>
@@ -340,10 +350,8 @@ gtag('config', 'G-GX6R5Z755F', { 'anonymize_ip': true});
 <p>En el mundo de la gestión estadística, las herramientas tecnológicas se suelen emplear a través de una propuesta de arquitectura tecnológica sugerida para ser implementada en aquellas entidades interesadas en extraer de manera eficiente el valor contenido en los datos. Comúnmente, la arquitectura necesaria es proporcionada por la inteligencia de negocios.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<figure class="figure">
-<img src="Imagenes/Gráfica 10.png" title="Arquitectura tecnológica típica de un modelo de inteligencia de negocios. Adaptación con base en arquitecturas semejantes" class="img-fluid figure-img" style="width:70.0%">
-</figure>
-<p></p><figcaption class="figure-caption">Gráfica 9. Arquitectura tecnológica típica de un modelo de inteligencia de negocios. Adaptación con base en arquitecturas semejantes. Fuente: elaboración propia con base en el libro de Gestión de la Información. https://estadisticaun.github.io/L_Conceptual/2-4-inteligencia-de-negocios.html</figcaption><p></p>
+<p><img src="Imagenes/Gráfica 10.png" title="Arquitectura tecnológica típica de un modelo de inteligencia de negocios. Adaptación con base en arquitecturas semejantes" class="img-fluid figure-img" style="width:70.0%"></p>
+<figcaption class="figure-caption">Gráfica 9. Arquitectura tecnológica típica de un modelo de inteligencia de negocios. Adaptación con base en arquitecturas semejantes. Fuente: elaboración propia con base en el libro de Gestión de la Información. https://estadisticaun.github.io/L_Conceptual/2-4-inteligencia-de-negocios.html</figcaption>
 </figure>
 </div>
 <p>El primer componente de la arquitectura tecnológica propuesta en la Gráfica 9 son los datos contenidos en bases de datos internas de sistemas de información, así como en registros internos, fuentes externas, encuestas o censos. A partir de allí, el segundo componente de un modelo de inteligencia de negocios son las ETL, a través de las cuales se <em>extraen</em> (E) los datos disponibles en las fuentes; se <em>transforman</em> (T) según los requerimientos definidos a nivel funcional en las entidades, y se <em>cargan</em> (L), o disponen, en fuentes de almacenamiento orientadas a la disposición de los datos bajo estructuras que facilitan el uso de estos con propósitos analíticos. Los desafíos en este componente incluyen desconocimiento de la arquitectura de las bases de datos, duplicidad de acciones, tecnologías diferentes, ausencia de normalización de los datos, falta de interoperabilidad, baja calidad de datos, entre otros. En la tercera fase, los datos extraídos y transformados se almacenan en bodegas de datos, <em>data marts</em> o <em>data lakes</em>. Estas bases de datos están diseñadas para mantener datos históricos provenientes de diversas fuentes de información.</p>
@@ -356,10 +364,8 @@ gtag('config', 'G-GX6R5Z755F', { 'anonymize_ip': true});
 <p>Por su parte, los <em>softwares</em> diversificados ofrecen una funcionalidad y capacidad de procesamiento mayor, pues permiten realizar tareas complejas, como modelado estadístico, aprendizaje automático (<em>machine learning</em>) y visualización interactiva y estática de datos. Asimismo, no están restringidos a una interfaz como tal; al contrario, se pueden extender con bibliotecas y paquetes adicionales que permiten una mayor flexibilidad y personalización en el procesamiento de datos, análisis y creación de visualizaciones adaptadas a las necesidades específicas del usuario. Sin embargo, es necesario contar con conocimientos en programación para aprovechar la flexibilidad y personalización que ofrecen. Las herramientas en cuestión son altamente escalables en la medida en que permiten el análisis de datos a gran escala y no requieren, generalmente, licenciamiento. Algunos ejemplos son R, SQL, Julia o Python. La Gráfica 10 da cuenta de los <em>softwares</em> especializados en gestión de datos focalizados y diversificados, así como de sus principales características.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<figure class="figure">
-<img src="Imagenes/Gráfica 11.png" title="Herramientas tecnológicas para la gestión de datos" class="img-fluid figure-img" style="width:70.0%">
-</figure>
-<p></p><figcaption class="figure-caption">Gráfica 10. Herramientas tecnológicas para la gestión de datos. Fuente: elaboración propia.</figcaption><p></p>
+<p><img src="Imagenes/Gráfica 11.png" title="Herramientas tecnológicas para la gestión de datos" class="img-fluid figure-img" style="width:70.0%"></p>
+<figcaption class="figure-caption">Gráfica 10. Herramientas tecnológicas para la gestión de datos. Fuente: elaboración propia.</figcaption>
 </figure>
 </div>
 </section>
@@ -369,10 +375,8 @@ gtag('config', 'G-GX6R5Z755F', { 'anonymize_ip': true});
 <p>Con todo, en el ciclo de producción de las estadísticas institucionales de la UNAL, se emplean diversas herramientas tecnológicas a lo largo del proceso de producción. Como se muestra en la Gráfica 11, para la captura de datos se utilizan, principalmente, bases de datos Oracle; para la importación, limpieza y transformación preliminar, se recurre a Excel y otras herramientas similares; para la limpieza y transformación final de los datos, así como para la construcción de tablas y gráficas, se emplean, sobre todo, R y RStudio; en cuanto al control de versiones, disposición de repositorios, alojamiento de aplicaciones en la nube y trabajo colaborativo, se utilizan Git, GitHub y Amazon Web Services (AWS); y, por último, para la comunicación y difusión de los resultados se emplean lenguajes como HTML, CSS y JavaScript (JS) para la construcción y disposición de la información estadística en ambientes web, así como en aplicaciones haciendo uso de Shiny de R.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<figure class="figure">
-<img src="Imagenes/Gráfica 12.png" title="Herramientas tecnológicas empleadas por la UNAL en la producción de estadísticas" class="img-fluid figure-img" style="width:70.0%">
-</figure>
-<p></p><figcaption class="figure-caption">Gráfica 11. Herramientas tecnológicas empleadas por la UNAL en la producción de estadísticas. Fuente: elaboración propia.</figcaption><p></p>
+<p><img src="Imagenes/Gráfica 12.png" title="Herramientas tecnológicas empleadas por la UNAL en la producción de estadísticas" class="img-fluid figure-img" style="width:70.0%"></p>
+<figcaption class="figure-caption">Gráfica 11. Herramientas tecnológicas empleadas por la UNAL en la producción de estadísticas. Fuente: elaboración propia.</figcaption>
 </figure>
 </div>
 <p>Es relevante destacar que las herramientas utilizadas en el proceso de producción estadística en la UNAL pueden tener aplicaciones diversas en otras entidades, adaptándose a las necesidades y los procesos específicos de cada una. Dicho de otro modo, la variedad de herramientas y posibilidades existentes permite que cada entidad pueda elegir su propio camino en función de sus necesidades y preferencias.</p>
@@ -420,41 +424,41 @@ gtag('config', 'G-GX6R5Z755F', { 'anonymize_ip': true});
 <p>A partir de la experiencia de la UNAL, desde la creación de la Oficina Nacional de Estadística de la institución, se ha asignado a un reducido grupo de funcionarios (pagados con recursos de funcionamiento), tanto a nivel nacional como en sus sedes, para liderar y mantener el ejercicio de la actividad estadística. Esta estrategia ha sido clave para sostener la base de la práctica estadística institucional a lo largo de los últimos años. Además, se han destinado recursos para la inversión a través de la formulación y el desarrollo de tres proyectos específicos, incluidos en planes de desarrollo de tres gobiernos institucionales. Estos proyectos de inversión se han diseñado para cumplir con lo establecido, principalmente, en el Plan Estadístico Institucional.</p>
 
 
-<div id="refs" class="references csl-bib-body hanging-indent" role="doc-bibliography" style="display: none">
-<div id="ref-DANE_2020b" class="csl-entry" role="doc-biblioentry">
+<div id="refs" class="references csl-bib-body hanging-indent" role="list" style="display: none">
+<div id="ref-DANE_2020b" class="csl-entry" role="listitem">
 DANE. 2020b. <em>Lineamientos Para El Proceso Estadístico En El Sistema Estadístico Nacional Versión 2.0</em>.
 </div>
-<div id="ref-DANE_2020c" class="csl-entry" role="doc-biblioentry">
+<div id="ref-DANE_2020c" class="csl-entry" role="listitem">
 ———. 2020c. <em>Metodología Para El Desarrollo de Planes Estadísticos</em>.
 </div>
-<div id="ref-DANE_2020d" class="csl-entry" role="doc-biblioentry">
+<div id="ref-DANE_2020d" class="csl-entry" role="listitem">
 ———. 2020d. <em>Norma Técnica de La Calidad Del Proceso Estadístico</em>.
 </div>
-<div id="ref-DANE_2020e" class="csl-entry" role="doc-biblioentry">
+<div id="ref-DANE_2020e" class="csl-entry" role="listitem">
 ———. 2020e. <em>Plan Estadístico Nacional</em>. <a href="https://www.sen.gov.co/files/PEN/PEN%202020.pdf">https://www.sen.gov.co/files/PEN/PEN%202020.pdf</a>.
 </div>
-<div id="ref-DANE_RC" class="csl-entry" role="doc-biblioentry">
+<div id="ref-DANE_RC" class="csl-entry" role="listitem">
 <em>DANE (s.f.b). Requisitos de Calidad</em>. <a href="https://www.dane.gov.co/index.php/estadisticas=por=tema/construcciónvivienda-vis-y-no-vis/138-es-panol/1900-requisitos-de-calidad">https://www.dane.gov.co/index.php/estadisticas=por=tema/construcciónvivienda-vis-y-no-vis/138-es-panol/1900-requisitos-de-calidad</a>.
 </div>
-<div id="ref-PNUD" class="csl-entry" role="doc-biblioentry">
+<div id="ref-PNUD" class="csl-entry" role="listitem">
 PNUD. <em>Programa de Las Naciones Unidas Para El Desarrollo (PNUD) (s.f.). Objetivo 17: Alianza Para Lograr Los Objetivos. Objetivos de Desarrollo Sostenible.</em>
 </div>
-<div id="ref-RodriguezBernal" class="csl-entry" role="doc-biblioentry">
+<div id="ref-RodriguezBernal" class="csl-entry" role="listitem">
 Rodríguez A., Bernal E. 2019. <em>Gestión de La Información Cuantitativa En Las Universidades: Pistas Para Su Abordaje En La Era de La Sobreinformación</em>. Universidad Nacional de Colombia. <a href="https://estadisticaun.github.io/L_Conceptual/index.html">https://estadisticaun.github.io/L_Conceptual/index.html</a>.
 </div>
-<div id="ref-UNAL_SF" class="csl-entry" role="doc-biblioentry">
+<div id="ref-UNAL_SF" class="csl-entry" role="listitem">
 UNAL. <em>Universidad Nacional de Colombia (s.f.). Guía Para La Cuantificación, Medición y Seguimiento a La Gestión de Los Procesos</em>. <a href="https://unal.softexpert.com/se/generic/gn_linkshare/linkshare.php?key=1vpood2gmv2s&amp;cdisosystem=73">https://unal.softexpert.com/se/generic/gn_linkshare/linkshare.php?key=1vpood2gmv2s&amp;cdisosystem=73</a>.
 </div>
-<div id="ref-UNAL_2013" class="csl-entry" role="doc-biblioentry">
+<div id="ref-UNAL_2013" class="csl-entry" role="listitem">
 ———. 2013. <em>Universidad Nacional de Colombia. Acuerdo 113. Por El Cual Se Establece La Estructura Interna Académico-Administrativa Del Nivel Nacional de La Universidad Nacional de Colombia. Acta 17</em>. <a href="http://www.legal.unal.edu.co/rlunal/home/doc.jsp?d_i=58926">http://www.legal.unal.edu.co/rlunal/home/doc.jsp?d_i=58926</a>.
 </div>
-<div id="ref-UNAL_2014" class="csl-entry" role="doc-biblioentry">
+<div id="ref-UNAL_2014" class="csl-entry" role="listitem">
 ———. 2014. <em>Universidad Nacional de Colombia. Resolución 383. Por La Cual Se Establece La Estructura Interna de La Dirección Nacional de Planeación y Estadística, y Se Determinan Sus Funciones</em>. <a href="http://www.legal.unal.edu.co/rlunal/home/doc.jsp?d_i=64488">http://www.legal.unal.edu.co/rlunal/home/doc.jsp?d_i=64488</a>.
 </div>
-<div id="ref-UNAL_2017" class="csl-entry" role="doc-biblioentry">
+<div id="ref-UNAL_2017" class="csl-entry" role="listitem">
 ———. 2017. <em>Universidad Nacional de Colombia. Acuerdo 238. Por Medio Del Cual Se Adopta El Régimen de Planeación y de Evaluación Permanente de Resultados de La Universidad Nacional de Colombia. Acta 04</em>. <a href="http://www.legal.unal.edu.co/rlunal/home/doc.jsp?d_i=88708">http://www.legal.unal.edu.co/rlunal/home/doc.jsp?d_i=88708</a>.
 </div>
-<div id="ref-UNAL_2018" class="csl-entry" role="doc-biblioentry">
+<div id="ref-UNAL_2018" class="csl-entry" role="listitem">
 ———. 2018. <em>Universidad Nacional de Colombia. Plan Estadístico Institucional</em>. <a href="https://estadisticaun.github.io/PlanE/">https://estadisticaun.github.io/PlanE/</a>.
 </div>
 </div>
@@ -622,9 +626,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
     }
   });
   clipboard.on('success', function(e) {
@@ -689,6 +707,92 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
   const findCites = (el) => {
     const parentEl = el.parentElement;
     if (parentEl) {
@@ -744,7 +848,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left"><a href="https://estadisticas.unal.edu.co/home/" target="_blank">Oficina Nacional de Estadística</a><br><a href="https://planeacion.unal.edu.co/home/" target="_blank">Dirección Nacional de Planeación y Estadística</a><br>Universidad Nacional de Colombia.</div>   
-      <div class="nav-footer-center">Estadísticas e Indicadores</div>
+    <div class="nav-footer-center">Estadísticas e Indicadores</div>
     <div class="nav-footer-right">Este libro fue construido con <a href="https://quarto.org/" target="_blank">Quarto</a>.</div>
   </div>
 </footer>
