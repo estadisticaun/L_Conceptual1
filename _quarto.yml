@@ -7,11 +7,13 @@ book:
   subtitle: "Aproximación Teórica y Práctica"
   author: 
   - name: David Santiago Hernández Ardila
+    url: https://www.linkedin.com/in/dantiago/
     affiliation: 
       - Oficina Nacional de Estadística
       - Dirección Nacional de Planeación y Estadística
       - Universidad Nacional de Colombia
   - name: Alberto Rodríguez Rodríguez
+    url: https://albertor.netlify.app/
     affiliation: 
      - Oficina Nacional de Estadística
      - Dirección Nacional de Planeación y Estadística
